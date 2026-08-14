@@ -74,19 +74,17 @@
         .basket-table .add-row .btn-add { background: #2a7de1; color: #fff; border: none; padding: 4px 14px; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: 600; transition: 0.2s; }
         .basket-table .add-row .btn-add:hover { background: #1a5fb0; }
 
-        /* ===== ИТОГОВЫЙ СПИСОК ===== */
+        /* ===== ИТОГОВЫЙ СПИСОК (СПИСОК ПО КАТЕГОРИЯМ) ===== */
         .final-list { margin-top: 20px; padding-top: 16px; border-top: 2px solid #2a7de1; text-align: left; }
-        .final-list h3 { font-size: 16px; margin-bottom: 8px; }
-        .final-list .basket-table-wrapper { margin: 0; }
-        .final-list .basket-table { font-size: 13px; }
-        .final-list .basket-table .col-name { width: 45%; }
-        .final-list .basket-table .col-weight-cooked { width: 15%; }
-        .final-list .basket-table .col-weight-raw { width: 15%; }
-        .final-list .basket-table .col-unit { width: 15%; }
-        .final-list .basket-table .col-check { width: 10%; text-align: center; }
-        .final-list .basket-table .col-actions { display: none; }
-        .final-list .basket-table th { background: #d4edda; }
-        .final-list .basket-table .check-col input[type="checkbox"] { display: none; }
+        .final-list .header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+        .final-list h3 { font-size: 16px; margin-bottom: 0; }
+        .final-list .days-info { font-size: 12px; color: #666; background: #f0f2f5; padding: 4px 12px; border-radius: 20px; }
+        .final-list .category-block { margin-bottom: 16px; }
+        .final-list .category-title { font-size: 14px; font-weight: 600; color: #2a7de1; border-bottom: 1px solid #e0e0e0; padding-bottom: 4px; margin-bottom: 6px; }
+        .final-list .product-item { font-size: 13px; padding: 2px 0 2px 12px; display: flex; align-items: center; gap: 8px; }
+        .final-list .product-item .weight { color: #555; font-weight: 500; }
+        .final-list .product-item .unit { color: #888; font-size: 11px; }
+        .final-list .empty { color: #999; padding: 20px 0; text-align: center; }
 
         .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 10px 24px; border-radius: 8px; font-size: 14px; opacity: 0; transition: opacity 0.3s; z-index: 999; pointer-events: none; }
         .toast.show { opacity: 1; }
@@ -132,7 +130,7 @@
 
     <!-- Итоговый список для покупки -->
     <div class="final-list hidden" id="finalListContainer">
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
             <h3>📋 Итоговый Список для Покупки</h3>
             <button class="btn btn-success" id="shareBtn">📤 Поделиться</button>
         </div>
@@ -167,7 +165,6 @@
             .then(data => {
                 allData = data;
                 console.log('✅ Данные загружены из data.json');
-                // Очищаем localStorage, чтобы не было конфликтов
                 localStorage.removeItem('mealData');
                 initApp();
                 showToast('Данные успешно загружены', 'success');
@@ -190,11 +187,9 @@
     // 3. ИНИЦИАЛИЗАЦИЯ
     // ================================================================
     function initApp() {
-        // При старте ничего не выбрано
         selectedDays.clear();
         renderFilters();
         renderCards();
-        // Корзина пуста
         document.getElementById('basketContent').innerHTML = '<div class="basket-empty">Выберите дни и нажмите «Собрать корзину»</div>';
         document.getElementById('finalListContainer').classList.add('hidden');
         basketItems = [];
@@ -245,7 +240,6 @@
         const data = getCurrentData();
 
         const filtered = data.filter(day => {
-            // Если ничего не выбрано — показываем все дни
             if (selectedDays.size === 0) return true;
             return selectedDays.has(day.day);
         });
@@ -323,6 +317,8 @@
             return;
         }
 
+        const daysCount = daysToCollect.length;
+
         for (const day of daysToCollect) {
             const meals = ['breakfast', 'lunch', 'snack', 'dinner'];
             for (const key of meals) {
@@ -355,7 +351,8 @@
                     weight_cooked: weights.cooked,
                     weight_raw: weights.raw,
                     unit: unit,
-                    available: false
+                    available: false,
+                    daysCount: daysCount
                 });
             }
             saveBasketToStorage();
@@ -459,7 +456,7 @@
                 alert('Пожалуйста, заполните название и вес');
                 return;
             }
-            basketItems.push({ name, weight_cooked, weight_raw, unit, available: false });
+            basketItems.push({ name, weight_cooked, weight_raw, unit, available: false, daysCount: 1 });
             saveBasketToStorage();
             renderBasketTable();
             updateFinalList();
@@ -471,43 +468,90 @@
     }
 
     // ================================================================
-    // 7. ИТОГОВЫЙ СПИСОК + ПОДЕЛИТЬСЯ
+    // 7. ИТОГОВЫЙ СПИСОК (ПО КАТЕГОРИЯМ, ТОЛЬКО СЫРОЙ ВЕС)
     // ================================================================
     function updateFinalList() {
         const container = document.getElementById('finalListContent');
         const notAvailable = basketItems.filter(item => !item.available);
 
         if (notAvailable.length === 0) {
-            container.innerHTML = '<div class="basket-empty">Все продукты отмечены как «В наличии» — ничего не нужно покупать! 🎉</div>';
+            container.innerHTML = '<div class="empty">Все продукты отмечены как «В наличии» — ничего не нужно покупать! 🎉</div>';
             return;
         }
 
-        let html = `<div class="basket-table-wrapper">
-            <table class="basket-table">
-                <thead>
-                    <tr>
-                        <th class="col-name">Название продукта</th>
-                        <th class="col-weight-cooked">Вес (готовый)</th>
-                        <th class="col-weight-raw">Вес (сырой)</th>
-                        <th class="col-unit">Ед. изм.</th>
-                    </tr>
-                </thead>
-                <tbody>`;
+        // Категории продуктов
+        const categories = {
+            'Фрукты': ['вишня', 'апельсин', 'персик', 'айва', 'яблоко', 'инжир', 'лимон', 'лайм', 'манго', 'банан', 'груша', 'хурма', 'виноград', 'киви', 'мандарин', 'кумкват', 'клубника', 'малина', 'ежевика', 'брусника', 'голубика', 'смородина', 'маракуйя', 'ананас', 'авокадо'],
+            'Овощи': ['перец', 'баклажан', 'кабачок', 'цукини', 'тыква', 'батат', 'картофель', 'морковь', 'брокколи', 'цветная капуста', 'фасоль', 'горошек', 'спаржа', 'артишок', 'фенхель', 'лук', 'томат', 'черри', 'огурец', 'редис', 'сельдерей', 'шпинат', 'салат', 'руккола', 'микс зелени', 'айсберг', 'кресс', 'мангольд', 'бок-чой'],
+            'Мясо / рыба / птица': ['курица', 'индейка', 'говядина', 'телятина', 'чоризо', 'хамон', 'сибас', 'кальмар', 'треска', 'сёмга', 'тунец', 'палтус', 'форель', 'лосось', 'скумбрия', 'креветки', 'дорадо', 'мидии', 'осьминог', 'печень', 'желудки', 'судак', 'пастрами', 'яйцо'],
+            'Молочные продукты': ['йогурт', 'рикотта', 'творог', 'моцарелла', 'козий сыр', 'фета', 'пармезан', 'качотта', 'таледжио', 'бри', 'гауда', 'камамбер', 'сулугуни', 'сливки', 'масло сливочное', 'молоко', 'кефир'],
+            'Крупы / мука / бобовые': ['мука', 'рис', 'нут', 'фасоль', 'чечевица', 'овсянка', 'полента', 'гречка', 'темпе', 'тофу', 'булгур', 'киноа', 'пшено', 'полба', 'перловка', 'просо', 'макароны'],
+            'Орехи / семена': ['миндаль', 'грецкий', 'кешью', 'кедровые', 'фундук', 'кунжут', 'тыквенные', 'чиа', 'лён', 'фисташки', 'арахис'],
+            'Масла / соусы / специи': ['оливковое', 'кунжутное', 'авокадо', 'масло грецкого ореха', 'уксус', 'бальзамик', 'мёд', 'горчица', 'тахини', 'хумус', 'соевый соус', 'мисо', 'терияки', 'паприка', 'карри', 'орегано', 'корица', 'гвоздика', 'тимьян', 'розмарин', 'чили'],
+        };
 
+        // Группируем продукты по категориям
+        const grouped = {};
         for (const item of notAvailable) {
-            const cooked = typeof item.weight_cooked === 'number' ? item.weight_cooked : 0;
-            const raw = typeof item.weight_raw === 'number' ? item.weight_raw : cooked;
-            html += `
-                <tr>
-                    <td class="col-name">${escapeHtml(item.name)}</td>
-                    <td class="col-weight-cooked">${cooked}</td>
-                    <td class="col-weight-raw">${raw}</td>
-                    <td class="col-unit">${escapeHtml(item.unit)}</td>
-                </tr>`;
+            let cat = 'Прочее';
+            const lowerName = item.name.toLowerCase();
+            for (const [category, keywords] of Object.entries(categories)) {
+                if (keywords.some(k => lowerName.includes(k))) {
+                    cat = category;
+                    break;
+                }
+            }
+            if (!grouped[cat]) grouped[cat] = [];
+            grouped[cat].push(item);
         }
 
-        html += `</tbody></table></div>`;
+        // Сортируем категории в логическом порядке
+        const categoryOrder = ['Фрукты', 'Овощи', 'Мясо / рыба / птица', 'Молочные продукты', 'Крупы / мука / бобовые', 'Орехи / семена', 'Масла / соусы / специи', 'Прочее'];
+
+        // Определяем количество дней
+        const daysCount = basketItems.reduce((max, item) => Math.max(max, item.daysCount || 1), 1);
+
+        let html = `
+            <div class="header">
+                <h3>📋 Итоговый Список для Покупки</h3>
+                <span class="days-info">📅 ${daysCount} ${declension(daysCount, 'день', 'дня', 'дней')}</span>
+            </div>
+        `;
+
+        let hasItems = false;
+        for (const cat of categoryOrder) {
+            const items = grouped[cat];
+            if (!items || items.length === 0) continue;
+            hasItems = true;
+            html += `<div class="category-block">`;
+            html += `<div class="category-title">🛒 ${cat}</div>`;
+            for (const item of items) {
+                const rawWeight = typeof item.weight_raw === 'number' ? item.weight_raw :
+                                 typeof item.weight_cooked === 'number' ? item.weight_cooked : 0;
+                const unit = item.unit || 'г';
+                html += `<div class="product-item">
+                    <span>• ${escapeHtml(item.name)}</span>
+                    <span class="weight">${rawWeight}</span>
+                    <span class="unit">${escapeHtml(unit)}</span>
+                </div>`;
+            }
+            html += `</div>`;
+        }
+
+        if (!hasItems) {
+            html += '<div class="empty">Нет продуктов для отображения</div>';
+        }
+
         container.innerHTML = html;
+    }
+
+    function declension(num, one, two, five) {
+        const n = Math.abs(num) % 100;
+        const n1 = n % 10;
+        if (n > 10 && n < 20) return five;
+        if (n1 > 1 && n1 < 5) return two;
+        if (n1 === 1) return one;
+        return five;
     }
 
     // ================================================================
@@ -520,29 +564,59 @@
             return;
         }
 
-        let text = '📋 ИТОГОВЫЙ СПИСОК ДЛЯ ПОКУПКИ\n';
-        text += '='.repeat(40) + '\n\n';
+        const categories = {
+            'Фрукты': ['вишня', 'апельсин', 'персик', 'айва', 'яблоко', 'инжир', 'лимон', 'лайм', 'манго', 'банан', 'груша', 'хурма', 'виноград', 'киви', 'мандарин', 'кумкват', 'клубника', 'малина', 'ежевика', 'брусника', 'голубика', 'смородина', 'маракуйя', 'ананас', 'авокадо'],
+            'Овощи': ['перец', 'баклажан', 'кабачок', 'цукини', 'тыква', 'батат', 'картофель', 'морковь', 'брокколи', 'цветная капуста', 'фасоль', 'горошек', 'спаржа', 'артишок', 'фенхель', 'лук', 'томат', 'черри', 'огурец', 'редис', 'сельдерей', 'шпинат', 'салат', 'руккола', 'микс зелени', 'айсберг', 'кресс', 'мангольд', 'бок-чой'],
+            'Мясо / рыба / птица': ['курица', 'индейка', 'говядина', 'телятина', 'чоризо', 'хамон', 'сибас', 'кальмар', 'треска', 'сёмга', 'тунец', 'палтус', 'форель', 'лосось', 'скумбрия', 'креветки', 'дорадо', 'мидии', 'осьминог', 'печень', 'желудки', 'судак', 'пастрами', 'яйцо'],
+            'Молочные продукты': ['йогурт', 'рикотта', 'творог', 'моцарелла', 'козий сыр', 'фета', 'пармезан', 'качотта', 'таледжио', 'бри', 'гауда', 'камамбер', 'сулугуни', 'сливки', 'масло сливочное', 'молоко', 'кефир'],
+            'Крупы / мука / бобовые': ['мука', 'рис', 'нут', 'фасоль', 'чечевица', 'овсянка', 'полента', 'гречка', 'темпе', 'тофу', 'булгур', 'киноа', 'пшено', 'полба', 'перловка', 'просо', 'макароны'],
+            'Орехи / семена': ['миндаль', 'грецкий', 'кешью', 'кедровые', 'фундук', 'кунжут', 'тыквенные', 'чиа', 'лён', 'фисташки', 'арахис'],
+            'Масла / соусы / специи': ['оливковое', 'кунжутное', 'авокадо', 'масло грецкого ореха', 'уксус', 'бальзамик', 'мёд', 'горчица', 'тахини', 'хумус', 'соевый соус', 'мисо', 'терияки', 'паприка', 'карри', 'орегано', 'корица', 'гвоздика', 'тимьян', 'розмарин', 'чили'],
+        };
 
+        const daysCount = basketItems.reduce((max, item) => Math.max(max, item.daysCount || 1), 1);
+
+        let text = `📋 ИТОГОВЫЙ СПИСОК ДЛЯ ПОКУПКИ (${daysCount} ${declension(daysCount, 'день', 'дня', 'дней')})\n`;
+        text += '='.repeat(50) + '\n\n';
+
+        const grouped = {};
         for (const item of notAvailable) {
-            const cooked = typeof item.weight_cooked === 'number' ? item.weight_cooked : 0;
-            const raw = typeof item.weight_raw === 'number' ? item.weight_raw : cooked;
-            const unit = item.unit || 'г';
-            text += `• ${item.name}\n`;
-            text += `  Готовый вес: ${cooked} ${unit}\n`;
-            text += `  Сырой вес:   ${raw} ${unit}\n\n`;
+            let cat = 'Прочее';
+            const lowerName = item.name.toLowerCase();
+            for (const [category, keywords] of Object.entries(categories)) {
+                if (keywords.some(k => lowerName.includes(k))) {
+                    cat = category;
+                    break;
+                }
+            }
+            if (!grouped[cat]) grouped[cat] = [];
+            grouped[cat].push(item);
         }
 
-        text += '='.repeat(40) + '\n';
+        const categoryOrder = ['Фрукты', 'Овощи', 'Мясо / рыба / птица', 'Молочные продукты', 'Крупы / мука / бобовые', 'Орехи / семена', 'Масла / соусы / специи', 'Прочее'];
+
+        for (const cat of categoryOrder) {
+            const items = grouped[cat];
+            if (!items || items.length === 0) continue;
+            text += `🛒 ${cat}\n`;
+            for (const item of items) {
+                const rawWeight = typeof item.weight_raw === 'number' ? item.weight_raw :
+                                 typeof item.weight_cooked === 'number' ? item.weight_cooked : 0;
+                const unit = item.unit || 'г';
+                text += `  • ${item.name} — ${rawWeight} ${unit}\n`;
+            }
+            text += '\n';
+        }
+
+        text += '='.repeat(50) + '\n';
         text += `Всего продуктов: ${notAvailable.length}\n`;
         text += `Дата: ${new Date().toLocaleDateString('ru-RU')}`;
 
-        // Копируем в буфер
         navigator.clipboard.writeText(text)
             .then(() => {
                 showToast('✅ Список скопирован в буфер обмена!', 'success');
             })
             .catch(() => {
-                // Fallback
                 const textarea = document.createElement('textarea');
                 textarea.value = text;
                 document.body.appendChild(textarea);
@@ -558,7 +632,6 @@
     // ================================================================
     document.getElementById('refreshDataBtn').addEventListener('click', function() {
         if (confirm('Обновить данные из data.json? Все несохранённые изменения будут потеряны.')) {
-            // Очищаем localStorage
             localStorage.removeItem('mealData');
             localStorage.removeItem('basketItems');
             basketItems = [];
