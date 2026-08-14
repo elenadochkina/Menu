@@ -1536,14 +1536,14 @@
           "protein_type": "animal",
           "dish_type": ["fish", "salad", "steamed"],
           "ingredients": [
-            { "product": "Сибас", "unit": "г", "weight_cooked": 80, "weight_raw": 95 },
+            { "product": "Сибас", "unit": "г", "weight_cooked": 80, "weight_raw": 130 },
             { "product": "Апельсин", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
             { "product": "Оливки зеленые", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
             { "product": "Микс зелени", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
           ],
-          "method": "1. Приготовить сибаса на пару около 8 мин. 2. Очистить апельсин от пленок. 3. Смешать все ингредиенты, заправить лимонным соком и маслом."
+          "method": "1. Приготовить сибаса (около 130 гр сырого) на пару около 8 мин. 2. Очистить апельсин от пленок. 3. Смешать все ингредиенты, заправить лимонным соком и маслом."
         }
       }
     },
@@ -1597,7 +1597,7 @@
           "protein_type": "animal",
           "dish_type": ["seafood", "salad", "grain"],
           "ingredients": [
-            { "product": "Кальмар", "unit": "г", "weight_cooked": 80, "weight_raw": 95 },
+            { "product": "Кальмар", "unit": "г", "weight_cooked": 80, "weight_raw": 150 },
             { "product": "Рис вареный", "unit": "г", "weight_cooked": 50, "weight_raw": 17 },
             { "product": "Горошек зеленый", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
             { "product": "Салат Романо", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
@@ -1633,7 +1633,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "salad"],
           "ingredients": [
-            { "product": "Индейка запеченная", "unit": "г", "weight_cooked": 80, "weight_raw": 105 },
+            { "product": "Индейка запеченная", "unit": "г", "weight_cooked": 80, "weight_raw": 130 },
             { "product": "Яблоко", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
             { "product": "Латук", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
@@ -1642,7 +1642,7 @@
             { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 },
             { "product": "Масло авокадо", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
           ],
-          "method": "Нарезать все ингредиенты, заправить соусом, перемешать."
+          "method": "1. Запечь индейку (около 130 гр сырой). 2.Нарезать все ингридиенты, заправить соусом (1 чл = дижонская горчица + мед + мало авокадо), перемешать."
         },
         "snack": {
           "name": "Вишня + Кофе",
@@ -1666,7 +1666,7 @@
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Хересный уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
           ],
-          "method": "1. Обжарить треску. 2. Нарезать картофель, отваренную фасоль и треску. 3. Смешать всё и заправь."
+          "method": "1. Отварить Картофель (около 60 гр сырого). 2. Отварить Зеленую фасоль (около 20 гр сырой). 3. Обжарить Треску (около 115 гр сырой). 4. Нарезать картофель, отваренную фасоль и треску. 4. Смешать все и заправить соусом (1 чл = оливковое масло + уксус)."
         }
       }
     },
@@ -1699,7 +1699,7 @@
             { "product": "Лимон", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 }
           ],
-          "method": "1. Собрать салат из всех ингредиентов. 2. Заправить соусом и украсить орешками."
+          "method": "1. Нут (около 20 гр сухого), замочить на ночь в воде. Отварить 40 мин. 2. Запечь морковь (около 100 гр сырой). 3. Собрать салат из всех ингридиентов. 4. Заправить соусом (1чл) и украсить орешками."
         },
         "snack": {
           "name": "Мини-Крустины с Печеным Баклажаном и Тимьяном",
@@ -1711,7 +1711,7 @@
             { "product": "Тимьян", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
           ],
-          "method": "1. Нарезать багет, выложить баклажан, посыпать тимьяном. 2. Запечь 7-8 минут при 180°С."
+          "method": "1. Запечь Баклажан (около 65-70 гр сырого). 2. Нарезать багет, выложить баклажан, посыпать тимьяном. 3. Запечь 7-8 минут при 180 гр."
         },
         "dinner": {
           "name": "Салат с Семгой, Апельсином и Грецкими орехами",
@@ -1749,7 +1749,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "baked"],
           "ingredients": [
-            { "product": "Курица", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Курица", "unit": "г", "weight_cooked": 150, "weight_raw": 250 },
             { "product": "Тыква запеченная", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Розмарин", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
@@ -1802,7 +1802,7 @@
           "protein_type": "animal",
           "dish_type": ["seafood"],
           "ingredients": [
-            { "product": "Кальмар тушеный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Кальмар тушеный", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Кабачок тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -1824,7 +1824,7 @@
           "protein_type": "animal",
           "dish_type": ["meat", "vegetable"],
           "ingredients": [
-            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 250 },
             { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -1853,7 +1853,7 @@
           "protein_type": "plant",
           "dish_type": ["soup", "vegetable"],
           "ingredients": [
-            { "product": "Брокколи отварная", "unit": "г", "weight_cooked": 250, "weight_raw": 325 },
+            { "product": "Брокколи отварная", "unit": "г", "weight_cooked": 250, "weight_raw": 350 },
             { "product": "Миндальное молоко", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
             { "product": "Пармезан", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -1875,7 +1875,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "baked"],
           "ingredients": [
-            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 215 },
             { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -1905,9 +1905,9 @@
           "protein_type": "animal",
           "dish_type": ["meat", "mushroom"],
           "ingredients": [
-            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
-            { "product": "Шампиньоны тушеные", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
-            { "product": "Цукини тушеный", "unit": "г", "weight_cooked": 95, "weight_raw": 120 },
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 250 },
+            { "product": "Шампиньоны тушеные", "unit": "г", "weight_cooked": 150, "weight_raw": 230 },
+            { "product": "Цукини тушеный", "unit": "г", "weight_cooked": 95, "weight_raw": 150 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -1958,7 +1958,7 @@
           "protein_type": "animal",
           "dish_type": ["fish", "baked"],
           "ingredients": [
-            { "product": "Палтус запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Палтус запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Батат запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2009,7 +2009,7 @@
           "protein_type": "animal",
           "dish_type": ["fish"],
           "ingredients": [
-            { "product": "Судак запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Судак запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Кабачок тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2031,7 +2031,7 @@
           "protein_type": "animal",
           "dish_type": ["meat", "mushroom"],
           "ingredients": [
-            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 215 },
             { "product": "Шампиньоны тушеные", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2061,8 +2061,8 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "baked"],
           "ingredients": [
-            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
-            { "product": "Батат запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 215 },
+            { "product": "Батат запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2083,8 +2083,8 @@
           "protein_type": "animal",
           "dish_type": ["fish", "vegetable"],
           "ingredients": [
-            { "product": "Лосось запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
-            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Лосось запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 190 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2112,8 +2112,8 @@
           "protein_type": "plant",
           "dish_type": ["soup", "vegetable"],
           "ingredients": [
-            { "product": "Шпинат тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Шпинат тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 800 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 150, "weight_raw": 190 },
             { "product": "Миндальное молоко", "unit": "мл", "weight_cooked": 50, "weight_raw": 50 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2135,7 +2135,7 @@
           "dish_type": ["seafood", "vegetable"],
           "ingredients": [
             { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
-            { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2164,8 +2164,8 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "vegetable"],
           "ingredients": [
-            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
-            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2186,7 +2186,7 @@
           "protein_type": "animal",
           "dish_type": ["fish", "vegetable"],
           "ingredients": [
-            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Цукини тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2215,7 +2215,7 @@
           "protein_type": "animal",
           "dish_type": ["meat", "vegetable"],
           "ingredients": [
-            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 280 },
             { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2238,7 +2238,7 @@
           "dish_type": ["tofu", "vegetable"],
           "ingredients": [
             { "product": "Тофу обжаренный", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
-            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
@@ -2266,7 +2266,7 @@
           "protein_type": "animal",
           "dish_type": ["meat", "salad"],
           "ingredients": [
-            { "product": "Говядина", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Говядина", "unit": "г", "weight_cooked": 90, "weight_raw": 165 },
             { "product": "Черная фасоль вареная", "unit": "г", "weight_cooked": 70, "weight_raw": 28 },
             { "product": "Кукуруза вареная", "unit": "г", "weight_cooked": 50, "weight_raw": 65 },
             { "product": "Салат Ромэн", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
@@ -2295,7 +2295,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "salad"],
           "ingredients": [
-            { "product": "Курица", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Курица", "unit": "г", "weight_cooked": 100, "weight_raw": 140 },
             { "product": "Перец красный сладкий", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
             { "product": "Салат Айсберг", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Лук красный", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
@@ -2329,7 +2329,7 @@
           "protein_type": "animal",
           "dish_type": ["fish", "salad"],
           "ingredients": [
-            { "product": "Треска", "unit": "г", "weight_cooked": 120, "weight_raw": 145 },
+            { "product": "Треска", "unit": "г", "weight_cooked": 120, "weight_raw": 150 },
             { "product": "Помидор", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
             { "product": "Микс листьев", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Лайм", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
@@ -2413,7 +2413,7 @@
           "dish_type": ["meat", "salad", "legume"],
           "ingredients": [
             { "product": "Чечевица отварная", "unit": "г", "weight_cooked": 60, "weight_raw": 24 },
-            { "product": "Говядина запеченная", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Говядина запеченная", "unit": "г", "weight_cooked": 90, "weight_raw": 170 },
             { "product": "Руккола", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Помидор", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
@@ -2471,8 +2471,8 @@
           "dish_type": ["poultry", "salad"],
           "ingredients": [
             { "product": "Капуста квашеная", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
-            { "product": "Картофель отварной", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
-            { "product": "Индейка", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Картофель отварной", "unit": "г", "weight_cooked": 60, "weight_raw": 70 },
+            { "product": "Индейка", "unit": "г", "weight_cooked": 90, "weight_raw": 130 },
             { "product": "Петрушка", "unit": "щепотка", "weight_cooked": 2, "weight_raw": 2 },
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
           ],
@@ -2514,8 +2514,8 @@
           "protein_type": "plant",
           "dish_type": ["grain", "vegetable"],
           "ingredients": [
-            { "product": "Полента", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
-            { "product": "Тыква печеная", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Полента", "unit": "г", "weight_cooked": 40, "weight_raw": 15 },
+            { "product": "Тыква печеная", "unit": "г", "weight_cooked": 60, "weight_raw": 120 },
             { "product": "Кокосовая стружка", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Вода", "unit": "мл", "weight_cooked": 150, "weight_raw": 150 }
           ],
@@ -2526,7 +2526,7 @@
           "protein_type": "animal",
           "dish_type": ["fish", "salad", "grilled"],
           "ingredients": [
-            { "product": "Треска", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Треска", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
             { "product": "Апельсин", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
             { "product": "Микс салатов", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
             { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
@@ -2557,13 +2557,13 @@
           "protein_type": "animal",
           "dish_type": ["fish", "vegetable"],
           "ingredients": [
-            { "product": "Треска запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Треска запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Фенхель тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Апельсиновая цедра", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
-          "method": "1. Запечь треску (около 200гр сырой). 2. Фенхель потушить. 3. Добавить треску, масло и цедру."
+          "method": "1. Запечь треску (около 200гр сырой). 2. Фенхель (около 250 гр сырого) потушить. 3. Добавить треску, масло и цедру."
         },
         "snack": {
           "name": "Хумус + Сельдерей",
@@ -2580,7 +2580,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "vegetable"],
           "ingredients": [
-            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 215 },
             { "product": "Артишоки тушеные", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2633,12 +2633,12 @@
           "protein_type": "animal",
           "dish_type": ["meat", "vegetable"],
           "ingredients": [
-            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
-            { "product": "Бок-чой тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
+            { "product": "Бак-чой тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
           ],
-          "method": "1. Потушить телятину. 2. Потушить бок-чой. 3. Выложить теплый тушеный бок-чой на тарелку. 4. Добавить сверху тушеную телятину. 5. Приправить перцем и полить оливковым маслом."
+          "method": "1. Потушить телятину. 2. Потушить бак-чой (около 250 гр). 3. Выложить теплый тушеный бак-чой на тарелку. 4. Добавить сверху тушеную телятину. 5. Приправить перцем и полить оливковым маслом."
         }
       }
     },
@@ -2714,7 +2714,7 @@
           "protein_type": "animal",
           "dish_type": ["poultry", "vegetable", "fruit"],
           "ingredients": [
-            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Лук-порей тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
             { "product": "Виноград", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
@@ -2740,7 +2740,7 @@
           "dish_type": ["tofu", "vegetable"],
           "ingredients": [
             { "product": "Тофу обжаренный", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
-            { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
             { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Кунжут", "unit": "г", "weight_cooked": 3, "weight_raw": 3 },
             { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
@@ -2769,7 +2769,7 @@
           "protein_type": "animal",
           "dish_type": ["meat", "vegetable"],
           "ingredients": [
-            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Цветная капуста", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
             { "product": "Фенхель тушеный", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
             { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
@@ -2792,7 +2792,7 @@
           "protein_type": "animal",
           "dish_type": ["fish", "fruit"],
           "ingredients": [
-            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 200 },
             { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
             { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
             { "product": "Паприка копченая", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
