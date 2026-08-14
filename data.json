@@ -1,0 +1,2850 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "block": "marathon",
+      "day": 1,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с тофу и кунжутом",
+          "protein_type": "plant",
+          "dish_type": ["salad", "vegetable", "tofu"],
+          "ingredients": [
+            { "product": "Тофу", "unit": "г", "weight_cooked": 160, "weight_raw": 160 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Салат латук", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Семена кунжута", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Соевый соус", "unit": "мл", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Имбирь свежий", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Тофу нарезать кубиками, обжарить 3 мин. 2. Морковь натереть, огурец нарезать соломкой. 3. Всё соединить с латуком, посыпать кунжутом, заправить соевым соусом с тёртым имбирём."
+        },
+        "snack": {
+          "name": "Смузи с манго и ананасом",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Ананас", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "1. Взбить в блендере все ингредиенты."
+        },
+        "dinner": {
+          "name": "Суп мисо с шпинатом и яйцом",
+          "protein_type": "animal",
+          "dish_type": ["soup", "egg"],
+          "ingredients": [
+            { "product": "Мисо паста", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 400, "weight_raw": 400 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Зелёный лук", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. В горячей воде растворить мисо. 2. Добавить шпинат, проварить 2 мин. 3. Вбить яйцо, перемешать. 4. Подать с зелёным луком."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "block": "marathon",
+      "day": 2,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт греческий — 150 г, Киви — 120 г, Кешью — 15 г, Чиа — 10 г",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт греческий", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Киви", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Кешью", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Семена чиа", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Йогурт соединить с дольками киви, посыпать орехами и чиа."
+        },
+        "lunch": {
+          "name": "Боул с гречкой и темпе",
+          "protein_type": "plant",
+          "dish_type": ["grain", "tofu"],
+          "ingredients": [
+            { "product": "Гречка сухая", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Темпе", "unit": "г", "weight_cooked": 160, "weight_raw": 160 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Салат кресс", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Соевый соус", "unit": "мл", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лайм", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Гречку сварить 15 мин. 2. Темпе обжарить 3 мин, сбрызнуть лаймом. 3. Брокколи на пару 5 мин. 4. Всё соединить в боул, заправить соевым соусом."
+        },
+        "snack": {
+          "name": "Салат с дыней",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Дыня", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Клубника", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Нарежь дольками дыню. 2. Смешай с остальными ингредиентами."
+        },
+        "dinner": {
+          "name": "Овощное карри с кокосовым молоком",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Цуккини", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Кокосовое молоко", "unit": "мл", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Карри паста зелёная", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Салат фриссе", "unit": "г", "weight_cooked": 80, "weight_raw": 80 }
+          ],
+          "method": "1. Овощи нарезать, тушить с карри пастой 10 мин. 2. Добавить кокосовое молоко, томить ещё 10 мин. 3. Подать с фриссе."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "block": "marathon",
+      "day": 3,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с тофу, манго и лаймом",
+          "protein_type": "plant",
+          "dish_type": ["salad", "fruit", "tofu"],
+          "ingredients": [
+            { "product": "Тофу", "unit": "г", "weight_cooked": 160, "weight_raw": 160 },
+            { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Салат ромэн", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Семена тыквенные", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Лайм", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Тофу нарезать кубиками, запечь при 200°С 10 мин. 2. Манго и огурец нарезать кубиками. 3. Всё соединить с ромэном, посыпать семенами, сбрызнуть лаймом."
+        },
+        "snack": {
+          "name": "Тропическое зеленое ням",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Маракуйя", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "1. Взбить в блендере все ингредиенты."
+        },
+        "dinner": {
+          "name": "Суп из красной чечевицы с имбирём",
+          "protein_type": "plant",
+          "dish_type": ["soup", "legume"],
+          "ingredients": [
+            { "product": "Чечевица красная сухая", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Имбирь свежий", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Кинза", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Чечевицу и овощи сварить 20 мин. 2. Пробить блендером с имбирём. 3. Подать с кинзой и маслом."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "block": "marathon",
+      "day": 4,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи боул",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Банан", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Ананас", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Йогурт натуральный", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Семена льна", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Банан и ананас взбить с йогуртом, выложить в миску, посыпать семенами и орехами."
+        },
+        "lunch": {
+          "name": "Боул с рисом жасмин и овощами терияки",
+          "protein_type": "plant",
+          "dish_type": ["grain", "vegetable"],
+          "ingredients": [
+            { "product": "Рис жасмин сухой", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Баклажан", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Цуккини", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Соус терияки", "unit": "мл", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Салат мангольд", "unit": "г", "weight_cooked": 80, "weight_raw": 80 }
+          ],
+          "method": "1. Рис сварить 12 мин. 2. Овощи обжарить 5 мин, добавить соус терияки. 3. Подать с мангольдом."
+        },
+        "snack": {
+          "name": "Салат с персиком",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Персик", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Смородина красная", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кресс-салат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 }
+          ],
+          "method": "1. Нарежь дольками персик. 2. Смешай с остальными ингредиентами."
+        },
+        "dinner": {
+          "name": "Суп-пюре из батата с кокосом",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Батат", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Кокосовое молоко", "unit": "мл", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Карри порошок", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Батат и морковь отварить 15 мин. 2. Пробить с кокосовым молоком и карри. 3. Подать с маслом."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "block": "marathon",
+      "day": 5,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с эдамаме и авокадо",
+          "protein_type": "plant",
+          "dish_type": ["salad", "vegetable"],
+          "ingredients": [
+            { "product": "Эдамаме", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Салат латук", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Семена кунжута", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лайм", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Эдамаме отварить 5 мин. 2. Авокадо и огурец нарезать кубиками. 3. Всё соединить с латуком, сбрызнуть лаймом, посыпать кунжутом."
+        },
+        "snack": {
+          "name": "Смузи с киви",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Киви", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "1. Взбить в блендере все ингредиенты."
+        },
+        "dinner": {
+          "name": "Овощи на пару с соусом мисо-кунжут",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "steamed"],
+          "ingredients": [
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Мисо паста", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Тахини", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Салат фриссе", "unit": "г", "weight_cooked": 80, "weight_raw": 80 }
+          ],
+          "method": "1. Овощи приготовить на пару 5–7 мин. 2. Соединить мисо и тахини, развести водой до соуса. 3. Подать овощи с соусом и фриссе."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "block": "marathon",
+      "day": 6,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американко — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с кальмаром и апельсином",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Кальмар", "unit": "г", "weight_cooked": 180, "weight_raw": 220 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Салат латук", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Семена кунжута", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Кальмара отварить 3 мин, нарезать кольцами. 2. Апельсин разобрать на дольки. 3. Всё соединить с латуком и огурцом, посыпать кунжутом, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи из клубники и шпината",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Клубника", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Взбить до однородной консистенции."
+        },
+        "dinner": {
+          "name": "Филе дорадо на гриле с фенхелем",
+          "protein_type": "animal",
+          "dish_type": ["fish", "grilled"],
+          "ingredients": [
+            { "product": "Филе дорадо", "unit": "г", "weight_cooked": 200, "weight_raw": 240 },
+            { "product": "Фенхель", "unit": "г", "weight_cooked": 120, "weight_raw": 150 },
+            { "product": "Салат кресс", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лимон", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Дорадо обжарить на гриле 5 мин. 2. Фенхель запечь при 200°С 15 мин. 3. Подать с кресс-салатом и лимоном."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "block": "marathon",
+      "day": 7,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт греческий — 150 г, Инжир — 120 г, Грецкий орех — 15 г, Чиа — 10 г",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт греческий", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Инжир", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Семена чиа", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Йогурт соединить с дольками инжира, посыпать орехами и чиа."
+        },
+        "lunch": {
+          "name": "Суп-пюре из брокколи с креветками",
+          "protein_type": "animal",
+          "dish_type": ["soup", "seafood"],
+          "ingredients": [
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Брокколи, картофель и лук отварить 15 мин, пробить в пюре. 2. Креветки отварить 3 мин. 3. Подать суп с креветками."
+        },
+        "snack": {
+          "name": "Салат с дыней и малиной",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Дыня", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Малина", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Дыню нарезать, смешать с малиной и петрушкой."
+        },
+        "dinner": {
+          "name": "Брускетта с рикоттой и печёной свёклой",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "baked"],
+          "ingredients": [
+            { "product": "Хлеб цельнозерновой", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Свёкла", "unit": "г", "weight_cooked": 120, "weight_raw": 150 },
+            { "product": "Фисташки", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Свёклу запечь при 200°С 35 мин, нарезать дольками. 2. Хлеб подсушить, намазать рикоттой, выложить свёклу, посыпать фисташками."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "block": "marathon",
+      "day": 8,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Боул с булгуром и мидиями",
+          "protein_type": "animal",
+          "dish_type": ["grain", "seafood"],
+          "ingredients": [
+            { "product": "Мидии", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Булгур сухой", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Помидоры черри", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Булгур сварить 12 мин. 2. Мидии протушить 5 мин. 3. Всё соединить с овощами и рукколой, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи с апельсином и шпинатом",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Брусника", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Пробить все ингредиенты в блендере."
+        },
+        "dinner": {
+          "name": "Овощное карри с кокосом и нутом",
+          "protein_type": "plant",
+          "dish_type": ["soup", "legume"],
+          "ingredients": [
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Цуккини", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Нут сухой", "unit": "г", "weight_cooked": 70, "weight_raw": 28 },
+            { "product": "Кокосовое молоко", "unit": "мл", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Карри паста", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Нут замочить, варить 40 мин. 2. Овощи тушить 10 мин с карри пастой. 3. Добавить кокосовое молоко и нут, томить ещё 10 мин."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "block": "marathon",
+      "day": 9,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи бол",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Банан", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Голубика", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Йогурт натуральный", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Семена льна", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Банан и голубику взбить с йогуртом, выложить в миску, посыпать семенами и орехами."
+        },
+        "lunch": {
+          "name": "Салат с осьминогом и маринованным лимоном",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Осьминог", "unit": "г", "weight_cooked": 180, "weight_raw": 220 },
+            { "product": "Маринованный лимон", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Салат ромэн", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Семена тыквенные", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Осьминога отварить 40 мин, нарезать кусочками. 2. Соединить с огурцом и ромэном, добавить лимон и семена."
+        },
+        "snack": {
+          "name": "Салат из груши и смородины",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Груша", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Смородина красная", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кресс-салат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 }
+          ],
+          "method": "Нарезать грушу, все смешать."
+        },
+        "dinner": {
+          "name": "Запеканка из баклажана и сулугуни",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Баклажан", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Сулугуни", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Базилик", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Баклажаны и помидоры нарезать, запечь 15 мин. 2. Уложить слоями с сулугуни и базиликом. 3. Запечь при 180°С 20 мин."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "block": "marathon",
+      "day": 10,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Суп томатный с кальмарами",
+          "protein_type": "animal",
+          "dish_type": ["soup", "seafood"],
+          "ingredients": [
+            { "product": "Кальмар", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Сельдерей", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Помидоры, морковь, сельдерей и лук томить 15 мин. 2. Добавить кольца кальмара, варить 3 мин. 3. Подать с маслом."
+        },
+        "snack": {
+          "name": "Смузи из ежевики и яблоком",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Ежевика", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Взбить в блендере все ингредиенты."
+        },
+        "dinner": {
+          "name": "Брускетта с авокадо и фетой",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "raw"],
+          "ingredients": [
+            { "product": "Хлеб цельнозерновой", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Фета", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Семена чиа", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Хлеб подсушить. 2. Намазать авокадо. 3. Сверху выложить фету и посыпать чиа."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "block": "marathon",
+      "day": 11,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня – 200 г + Американо – 120 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Телячья печень, яблоко и микс зелени",
+          "protein_type": "animal",
+          "dish_type": ["meat"],
+          "ingredients": [
+            { "product": "Печень телячья", "unit": "г", "weight_cooked": 180, "weight_raw": 230 },
+            { "product": "Яблоко зелёное", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Микс салатов", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Масло кунжутное", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Бальзамический уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Обжаривай печень по 2 минуты с каждой стороны до розовой середины, затем остуди. 2. Нарежь яблоко дольками. 3. Смешай с зеленью, заправь и подавай при комнатной температуре."
+        },
+        "snack": {
+          "name": "Смузи с перловкой, грушей и кефиром",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "grain"],
+          "ingredients": [
+            { "product": "Перловка варёная", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Груша", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Кефир", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Гвоздика молотая", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "Смешай ингредиенты блендером до однородной текстуры."
+        },
+        "dinner": {
+          "name": "Салат с кальмарами, авокадо и салатом ромен",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Кальмары очищенные", "unit": "г", "weight_cooked": 160, "weight_raw": 190 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Салат ромен", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Лайм", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Вари кальмаров 2–3 минуты, нарежь кольцами. 2. Нарежь авокадо кубиками, сбрызни лаймом. 3. Смешай с зеленью и заправь."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "block": "marathon",
+      "day": 12,
+      "meals": {
+        "breakfast": {
+          "name": "Льняные лепёшки с творогом и чёрной смородиной",
+          "protein_type": "animal",
+          "dish_type": ["baked", "cheese"],
+          "ingredients": [
+            { "product": "Мука льняная", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Соль", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Творог", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Чёрная смородина", "unit": "г", "weight_cooked": 50, "weight_raw": 50 }
+          ],
+          "method": "1. Замеси муку с водой до густой массы, сформируй лепёшки, обжарь по 2 минуты на сухой сковороде. 2. Подава с творогом и смородиной."
+        },
+        "lunch": {
+          "name": "Боул с варёной индейкой, свёклой и козьим сыром",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Индейка отварная", "unit": "г", "weight_cooked": 160, "weight_raw": 210 },
+            { "product": "Свёкла запечённая", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Козий сыр", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкие орехи", "unit": "г", "weight_cooked": 8, "weight_raw": 8 },
+            { "product": "Масло грецкого ореха", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запеки свёклу при 180°С 40 минут. 2. Нарежь её ломтиками. 3. Разбери индейку на кусочки. 4. Смешай всё и посыпь орехами."
+        },
+        "snack": {
+          "name": "Смузи с просом, малиной и базиликом",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "grain"],
+          "ingredients": [
+            { "product": "Просо варёное", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Малина", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Базилик", "unit": "лист", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Йогурт натуральный", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 }
+          ],
+          "method": "Смешай ингредиенты блендером до однородной текстуры."
+        },
+        "dinner": {
+          "name": "Салат с печёной скумбрией, картофелем и рукколой",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Филе скумбрии", "unit": "г", "weight_cooked": 160, "weight_raw": 190 },
+            { "product": "Картофель молодой", "unit": "г", "weight_cooked": 80, "weight_raw": 100 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Уксус яблочный", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запеки скумбрию 15 минут при 200°С. 2. Отвари картофель и нарежь. 3. Смешай всё и заправь."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "block": "marathon",
+      "day": 13,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня – 200 г + Американо – 120 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с куриным желудком, огурцом и лолло россо",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad"],
+          "ingredients": [
+            { "product": "Куриные желудки", "unit": "г", "weight_cooked": 180, "weight_raw": 180 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Лолло россо", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Укроп", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Горчичное масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Вари желудки 1,5 часа, нарежь. 2. Нарежь огурец соломкой. 3. Смешай всё и заправь."
+        },
+        "snack": {
+          "name": "Смузи с полбой, сливой и корицей",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "grain"],
+          "ingredients": [
+            { "product": "Полба варёная", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Слива", "unit": "шт", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Кефир", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Корица", "unit": "г", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "Пробей блендером до шелковистой текстуры."
+        },
+        "dinner": {
+          "name": "Салат с креветками, айсбергом и ананасом",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Креветки очищенные", "unit": "г", "weight_cooked": 160, "weight_raw": 190 },
+            { "product": "Айсберг", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Ананас", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Масло авокадо", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Обжарь креветки 2 минуты на сильном огне. 2. Нарежь ананас кубиками. 3. Смешай с зеленью и заправь."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "block": "marathon",
+      "day": 14,
+      "meals": {
+        "breakfast": {
+          "name": "Пшённая запеканка с курагой",
+          "protein_type": "animal",
+          "dish_type": ["grain", "baked"],
+          "ingredients": [
+            { "product": "Пшено сухое", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Молоко", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Курага", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Масло сливочное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Свари пшено до готовности. 2. Смешай с яйцом, молоком и курагой. 3. Выложи в форму и запеки при 180°С 25–30 минут."
+        },
+        "lunch": {
+          "name": "Салат с куриной грудкой, виноградом и миксом зелени",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Куриная грудка", "unit": "г", "weight_cooked": 160, "weight_raw": 210 },
+            { "product": "Виноград тёмный", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Микс зелени", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Семена тыквенные", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Отвари или запеки грудку, нарежь. 2. Разрежь виноград пополам. 3. Смешай всё и посыпь семечками."
+        },
+        "snack": {
+          "name": "Смузи из киноа, апельсина и мяты",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "grain"],
+          "ingredients": [
+            { "product": "Киноа варёная", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Мята", "unit": "лист", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Йогурт", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 }
+          ],
+          "method": "Смешай все ингредиенты до гладкой кремовой консистенции."
+        },
+        "dinner": {
+          "name": "Салат с тунцом, редисом и шпинатом",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Тунец консервированный", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Редис", "unit": "шт", "weight_cooked": 3, "weight_raw": 3 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Масло льняное", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Нарежь редис слайсами, тунец разомни вилкой. 2. Смешай с зеленью и заправь."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "block": "marathon",
+      "day": 15,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г + Американо — 120 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с кальмарами, помидором и базиликом",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Кальмары", "unit": "г", "weight_cooked": 160, "weight_raw": 190 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Базилик", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Айсберг", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Вари кальмары 2 минуты, нарежь. 2. Нарежь помидоры дольками. 3. Смешай всё и заправь."
+        },
+        "snack": {
+          "name": "Смузи с булгуром, персиком и мятой",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "grain"],
+          "ingredients": [
+            { "product": "Булгур варёный", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Персик", "unit": "г", "weight_cooked": 70, "weight_raw": 70 },
+            { "product": "Йогурт", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Мята", "unit": "лист", "weight_cooked": 2, "weight_raw": 2 }
+          ],
+          "method": "Взбей всё до шелковистой текстуры."
+        },
+        "dinner": {
+          "name": "Салат с сёмгой, брокколи и грецким орехом",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Сёмга слабосолёная", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Зелёный салат", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Масло грецкого ореха", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Бланшируй брокколи 2 минуты. 2. Остуди, смешай с остальными ингредиентами."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "block": "marathon",
+      "day": 16,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американко — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с сёмгой и клубникой",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Сёмга слабосолёная", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Клубника", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Салат ромэн", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Семена кунжута", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Сёмгу нарезать слайсами. 2. Клубнику разрезать пополам. 3. Всё соединить с ромэном и огурцом, посыпать кунжутом, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи с малиной, шпинатом и яблоком",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Малина", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Все ингредиенты вместе взбить в блендере до однородности."
+        },
+        "dinner": {
+          "name": "Филе дорадо запечённое с овощами",
+          "protein_type": "animal",
+          "dish_type": ["fish", "baked"],
+          "ingredients": [
+            { "product": "Филе дорадо", "unit": "г", "weight_cooked": 200, "weight_raw": 240 },
+            { "product": "Кабачок", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Перец болгарский", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Помидоры черри", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Тимьян", "unit": "г", "weight_cooked": 3, "weight_raw": 3 }
+          ],
+          "method": "1. Овощи нарезать кубиками, запечь 15 мин. 2. Дорадо уложить сверху, запекать ещё 15 мин с тимьяном."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "block": "marathon",
+      "day": 17,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт с инжиром",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт греческий", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Инжир", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Фундук", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Семена чиа", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Йогурт соединить с инжиром, посыпать орехами и чиа."
+        },
+        "lunch": {
+          "name": "Суп-пюре из брокколи с треской",
+          "protein_type": "animal",
+          "dish_type": ["soup", "fish"],
+          "ingredients": [
+            { "product": "Треска", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Брокколи, картофель и лук отварить 15 мин. 2. Пробить блендером в пюре. 3. Треску отварить отдельно 7 мин, добавить в суп перед подачей."
+        },
+        "snack": {
+          "name": "Салат с дыней",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Дыня", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Ежевика", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "Нарезать дыню, все смешать."
+        },
+        "dinner": {
+          "name": "Брускетта с рикоттой и креветками",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "seafood"],
+          "ingredients": [
+            { "product": "Хлеб цельнозерновой", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Хлеб подсушить. 2. Рикотту намазать на тосты. 3. Сверху выложить авокадо и креветки, сбрызнуть маслом."
+        }
+      }
+    },
+    {
+      "id": 18,
+      "block": "marathon",
+      "day": 18,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Боул с киноа и сибасом",
+          "protein_type": "animal",
+          "dish_type": ["fish", "grain"],
+          "ingredients": [
+            { "product": "Сибас", "unit": "г", "weight_cooked": 180, "weight_raw": 220 },
+            { "product": "Киноа сухая", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лимон", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Киноа сварить 15 мин. 2. Сибас обжарить на гриле 5 мин, сбрызнуть лимоном. 3. Морковь натереть, огурец нарезать соломкой. 4. Всё соединить с рукколой."
+        },
+        "snack": {
+          "name": "Смузи с клюквой и апельсином",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Клюква", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Все ингредиенты взбить в блендере до кремовой текстуры."
+        },
+        "dinner": {
+          "name": "Овощная запеканка с камамбером",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Баклажан", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Кабачок", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Сыр камамбер", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Базилик", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Овощи нарезать кружочками, выложить слоями. 2. Сверху положить камамбер, запекать при 180°С 25 мин. 3. Подать с базиликом."
+        }
+      }
+    },
+    {
+      "id": 19,
+      "block": "marathon",
+      "day": 19,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи болу",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Банан", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Ананас", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Йогурт натуральный", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Семена льна", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Кешью", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Банан и ананас взбить с йогуртом, выложить в миску, посыпать семенами и орехами."
+        },
+        "lunch": {
+          "name": "Салат с копчёной скумбрией и яблоком",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Скумбрия копчёная", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Яблоко зелёное", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Салат фриссе", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Свёкла варёная", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кедровые орехи", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Скумбрию разобрать на кусочки. 2. Яблоко и свёклу нарезать кубиками. 3. Всё соединить с фриссе, заправить маслом и посыпать орехами."
+        },
+        "snack": {
+          "name": "Салат с персиком",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Персик", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Смородина красная", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кресс-салат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 }
+          ],
+          "method": "Нарезать персик, все смешать."
+        },
+        "dinner": {
+          "name": "Суп томатный с фетой",
+          "protein_type": "animal",
+          "dish_type": ["soup", "cheese"],
+          "ingredients": [
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 80, "weight_raw": 100 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Фета", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Базилик свежий", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Помидоры, морковь и лук томить 15 мин. 2. Пробить блендером. 3. Подать с кубиками феты и базиликом."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "block": "marathon",
+      "day": 20,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американко — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Суп-пюре из цветной капусты с лососем",
+          "protein_type": "animal",
+          "dish_type": ["soup", "fish"],
+          "ingredients": [
+            { "product": "Лосось", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Капусту, картофель и лук отварить 15 мин, пробить в пюре. 2. Лосося запечь при 190°С 15 мин. 3. Подать суп с кусочками рыбы."
+        },
+        "snack": {
+          "name": "Смузи с манго и апельсином",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Манго", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Все ингредиенты взбить в блендере до кремовой текстуры."
+        },
+        "dinner": {
+          "name": "Брускетта с авокадо и моцареллой",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "raw"],
+          "ingredients": [
+            { "product": "Хлеб цельнозерновой", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Моцарелла", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Семена тыквенные", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Хлеб подсушить. 2. Намазать пюре из авокадо. 3. Сверху выложить моцареллу, посыпать семенами."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "block": "marathon",
+      "day": 21,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американо — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с телятиной и маринованной свёклой",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad"],
+          "ingredients": [
+            { "product": "Телятина", "unit": "г", "weight_cooked": 180, "weight_raw": 230 },
+            { "product": "Свёкла запечённая", "unit": "г", "weight_cooked": 120, "weight_raw": 150 },
+            { "product": "Салат латук", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Телятина обжарить 8–10 мин, нарезать слайсами. 2. Свёклу запечь при 200°С 35 мин, нарезать дольками. 3. Всё соединить с латуком и орехами, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи с клубникой и шпинатом",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Клубника", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Взбить всё до однородности."
+        },
+        "dinner": {
+          "name": "Запеканка из баклажанов и сулугуни",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Баклажан", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Сулугуни", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Базилик", "unit": "г", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Баклажаны и помидоры запечь 15 мин. 2. Выложить слоями с сулугуни и базиликом. 3. Запечь при 180°С 20 мин."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "block": "marathon",
+      "day": 22,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт с инжиром",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт греческий", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Инжир", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Семена чиа", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Йогурт соединить с инжиром, посыпать орехами и чиа."
+        },
+        "lunch": {
+          "name": "Боул с киноа и сёмгой гриль",
+          "protein_type": "animal",
+          "dish_type": ["fish", "grain"],
+          "ingredients": [
+            { "product": "Сёмга", "unit": "г", "weight_cooked": 180, "weight_raw": 220 },
+            { "product": "Киноа сухая", "unit": "г", "weight_cooked": 70, "weight_raw": 25 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Салат ромэн", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лимон", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Киноа сварить 15 мин. 2. Сёмгу обжарить на гриле 5 мин, сбрызнуть лимоном. 3. Овощи нарезать соломкой, соединить с ромэном."
+        },
+        "snack": {
+          "name": "Салат с дыней",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Дыня", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Ежевика", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "Нарезать дыню, все смешать."
+        },
+        "dinner": {
+          "name": "Суп-пюре из тыквы с имбирём",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Тыква", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Имбирь свежий", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Семена тыквенные", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Тыкву, картофель и лук отварить 20 мин. 2. Пробить с имбирём в пюре. 3. Подать с семенами и маслом."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "block": "marathon",
+      "day": 23,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американко — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с нутом и авокадо",
+          "protein_type": "plant",
+          "dish_type": ["legume", "salad"],
+          "ingredients": [
+            { "product": "Нут сухой", "unit": "г", "weight_cooked": 70, "weight_raw": 28 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Помидоры черри", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Семена кунжута", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Нут замочить, варить 40 мин. 2. Овощи нарезать, авокадо — кубиками. 3. Всё соединить, посыпать кунжутом, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи с киви и шпинатом",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Киви", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Взбить всё до однородности."
+        },
+        "dinner": {
+          "name": "Запеканка из картофеля и рикотты",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Картофель", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Пармезан", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Тимьян", "unit": "г", "weight_cooked": 3, "weight_raw": 3 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Картофель нарезать тонко, отварить 5 мин. 2. Уложить слоями с рикоттой и тимьяном. 3. Посыпать пармезаном, запекать при 180°С 25 мин."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "block": "marathon",
+      "day": 24,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи боул",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Банан", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Голубика", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Йогурт натуральный", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Семена льна", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Кешью", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Банан и голубику взбить с йогуртом, выложить в миску, посыпать семенами и орехами."
+        },
+        "lunch": {
+          "name": "Суп-пюре из цветной капусты с креветками",
+          "protein_type": "animal",
+          "dish_type": ["soup", "seafood"],
+          "ingredients": [
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Картофель", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Лук", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Цветную капусту, картофель и лук отварить 15 мин, пробить в пюре. 2. Креветки отварить 3 мин, выложить сверху."
+        },
+        "snack": {
+          "name": "Салат с персиком",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "salad"],
+          "ingredients": [
+            { "product": "Персик", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Смородина красная", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кресс-салат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 }
+          ],
+          "method": "Нарежь персик кубиками, все смешай."
+        },
+        "dinner": {
+          "name": "Филе трески запечённое с овощами",
+          "protein_type": "animal",
+          "dish_type": ["fish", "baked"],
+          "ingredients": [
+            { "product": "Треска", "unit": "г", "weight_cooked": 180, "weight_raw": 220 },
+            { "product": "Кабачок", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Помидоры", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Тимьян", "unit": "г", "weight_cooked": 3, "weight_raw": 3 }
+          ],
+          "method": "1. Овощи нарезать кубиками, запечь 15 мин. 2. Выложить треску сверху, запекать ещё 15 мин."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "block": "marathon",
+      "day": 25,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня — 200 г Американю — 200 мл",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американю", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с курицей и манго",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Куриное филе", "unit": "г", "weight_cooked": 180, "weight_raw": 230 },
+            { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Салат латук", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Кешью", "unit": "г", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 10, "weight_raw": 10 }
+          ],
+          "method": "1. Курицу обжарить 8–10 мин, нарезать слайсами. 2. Манго нарезать кубиками. 3. Всё соединить, посыпать орехами, заправить маслом."
+        },
+        "snack": {
+          "name": "Смузи с брусникой и шпинатом",
+          "protein_type": "plant",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Брусника", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 70, "weight_raw": 70 }
+          ],
+          "method": "Взбить всё до однородности."
+        },
+        "dinner": {
+          "name": "Киш с брокколи и козьим сыром",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Тесто слоёное", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 120, "weight_raw": 150 },
+            { "product": "Козий сыр мягкий", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Сливки 10%", "unit": "мл", "weight_cooked": 80, "weight_raw": 80 }
+          ],
+          "method": "1. Брокколи на пару 5 мин. 2. Выложить на тесто, залить смесью яйца и сливок. 3. Сверху выложить козий сыр. 4. Запекать при 180°С 25 мин."
+        }
+      }
+    },
+    {
+      "id": 26,
+      "block": "sama",
+      "day": 1,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с Чоризо, печеным перцем и козьим сыром",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad", "cheese"],
+          "ingredients": [
+            { "product": "Перец красный сладкий", "unit": "г", "weight_cooked": 70, "weight_raw": 95 },
+            { "product": "Чоризо", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Козий сыр мягкий", "unit": "г", "weight_cooked": 25, "weight_raw": 25 },
+            { "product": "Салат Романо", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Винный уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запечь перец (около 95 гр сырого) при 200°С около 25 мин. 2. Слегка обжарить чоризо. 3. Собрать салат слоями, заправить взбитой смесью масла и уксуса."
+        },
+        "snack": {
+          "name": "Бискотти с миндалем и апельсиновой цедрой",
+          "protein_type": "plant",
+          "dish_type": ["baked"],
+          "ingredients": [
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Мука", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Цедра апельсина", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Разрыхлитель", "unit": "г", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Замесить тесто, сформировать батон, запечь при 180°С 20 мин. 2. Нарезать на кусочки и подсушить еще 10 мин."
+        },
+        "dinner": {
+          "name": "Салат с тунцом, апельсином и нутом",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad", "legume"],
+          "ingredients": [
+            { "product": "Тунец в собственном соку", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Нут варёный", "unit": "г", "weight_cooked": 60, "weight_raw": 24 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Сок апельсина", "unit": "ст.л.", "weight_cooked": 15, "weight_raw": 15 },
+            { "product": "Паприка", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Нут (около 20 гр сухого) замочить на ночь, отварить 40 мин. 2. Очистить апельсин от пленок. 3. Смешать все ингредиенты. 4. Заправить смесью масла, сока и паприки."
+        }
+      }
+    },
+    {
+      "id": 27,
+      "block": "sama",
+      "day": 2,
+      "meals": {
+        "breakfast": {
+          "name": "Галета с персиком и розмарином",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "baked"],
+          "ingredients": [
+            { "product": "Мука цельнозерновая", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Масло сливочное", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 0.25, "weight_raw": 0.25 },
+            { "product": "Персик", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Розмарин", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Замесить тесто, раскатать, выложить ломтики персика, мед и розмарин. 2. Загнуть края и выпекать при 180°С около 25 мин."
+        },
+        "lunch": {
+          "name": "Салат с Хамоном, Инжиром и Шпинатом",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad"],
+          "ingredients": [
+            { "product": "Хамон", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Инжир сушеный", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Моцарелла", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Бальзамический уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запарить инжир в теплой воде, нарезать. 2. Соединить все ингредиенты, посыпать орехами и полить заправкой."
+        },
+        "snack": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Салат с Сибасом на пару, оливками и апельсином",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad", "steamed"],
+          "ingredients": [
+            { "product": "Сибас", "unit": "г", "weight_cooked": 80, "weight_raw": 95 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Оливки зеленые", "unit": "г", "weight_cooked": 20, "weight_raw": 20 },
+            { "product": "Микс зелени", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Приготовить сибаса на пару около 8 мин. 2. Очистить апельсин от пленок. 3. Смешать все ингредиенты, заправить лимонным соком и маслом."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "block": "sama",
+      "day": 3,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с Запеченной Курицей, Айвой и овечьим сыром",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad", "cheese"],
+          "ingredients": [
+            { "product": "Курица", "unit": "г", "weight_cooked": 80, "weight_raw": 105 },
+            { "product": "Айва", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Сыр овечий", "unit": "г", "weight_cooked": 25, "weight_raw": 25 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Кешью", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Масло грецкого ореха", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Нарезать айву и запечь при 200°С около 20 мин. 2. Запечь или обжарить курицу (100-110 гр сырой). 3. Нарезать все и заправить соусом."
+        },
+        "snack": {
+          "name": "Кекс из Кукурузной Муки с Паприкой",
+          "protein_type": "plant",
+          "dish_type": ["baked"],
+          "ingredients": [
+            { "product": "Кукурузная мука", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Паприка", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Разрыхлитель", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Соль", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "Смешать все ингредиенты, вылить в форму, выпекать при 180°С около 20 мин."
+        },
+        "dinner": {
+          "name": "Салат с Кальмарами, рисом и зеленым горошком",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad", "grain"],
+          "ingredients": [
+            { "product": "Кальмар", "unit": "г", "weight_cooked": 80, "weight_raw": 95 },
+            { "product": "Рис вареный", "unit": "г", "weight_cooked": 50, "weight_raw": 17 },
+            { "product": "Горошек зеленый", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Салат Романо", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Перец красный сладкий", "unit": "г", "weight_cooked": 40, "weight_raw": 55 },
+            { "product": "Бальзамический уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Отварить кальмар (около 150 гр сырого). 2. Отварить рис (около 12-15гр сухого). 3. Смешать все ингредиенты, заправить маслом и уксусом."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "block": "sama",
+      "day": 4,
+      "meals": {
+        "breakfast": {
+          "name": "Пирожок с Творогом и Томатами",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "baked"],
+          "ingredients": [
+            { "product": "Мука ржаная", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Творог", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Томаты черри", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Орегано", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Соль", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Смешать ингредиенты, выложить в виде открытого пирожка. 2. Запечь при 180°С около 25 мин."
+        },
+        "lunch": {
+          "name": "Салат с Пастрами из Индейки, Яблоком и Грецкими орехами",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Индейка запеченная", "unit": "г", "weight_cooked": 80, "weight_raw": 105 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Латук", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Фета", "unit": "г", "weight_cooked": 25, "weight_raw": 25 },
+            { "product": "Горчица дижонская", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Масло авокадо", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "Нарезать все ингредиенты, заправить соусом, перемешать."
+        },
+        "snack": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Салат с Жареной Треской, Картофелем и Зеленой Фасолью",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Треска", "unit": "г", "weight_cooked": 90, "weight_raw": 110 },
+            { "product": "Картофель отварной", "unit": "г", "weight_cooked": 50, "weight_raw": 65 },
+            { "product": "Фасоль зеленая", "unit": "г", "weight_cooked": 50, "weight_raw": 65 },
+            { "product": "Петрушка", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Хересный уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Обжарить треску. 2. Нарезать картофель, отваренную фасоль и треску. 3. Смешать всё и заправь."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "block": "sama",
+      "day": 5,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с Печеной Морковью, Нутом и Козьим Сыром",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "salad", "cheese"],
+          "ingredients": [
+            { "product": "Морковь запеченная", "unit": "г", "weight_cooked": 80, "weight_raw": 100 },
+            { "product": "Нут вареный", "unit": "г", "weight_cooked": 60, "weight_raw": 24 },
+            { "product": "Козий сыр", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Кедровые орешки", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лимон", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Мёд", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 }
+          ],
+          "method": "1. Собрать салат из всех ингредиентов. 2. Заправить соусом и украсить орешками."
+        },
+        "snack": {
+          "name": "Мини-Крустины с Печеным Баклажаном и Тимьяном",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "baked"],
+          "ingredients": [
+            { "product": "Багет цельнозерновой", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Баклажан печеный", "unit": "г", "weight_cooked": 50, "weight_raw": 65 },
+            { "product": "Тимьян", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Нарезать багет, выложить баклажан, посыпать тимьяном. 2. Запечь 7-8 минут при 180°С."
+        },
+        "dinner": {
+          "name": "Салат с Семгой, Апельсином и Грецкими орехами",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Семга слабосоленая", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Микс зелени", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Сок апельсина", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Масло грецкого ореха", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "Собрать салат и заправить соусом."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "block": "sama",
+      "day": 6,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Курица + Тыква + Розмарин",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "baked"],
+          "ingredients": [
+            { "product": "Курица", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Тыква запеченная", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Розмарин", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить курицу (около 250 гр сырой). 2. Запечь тыкву (около 250-270 гр сырой). 3. Смешать все и заправить."
+        },
+        "snack": {
+          "name": "Рикотта + Виноград",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "fruit"],
+          "ingredients": [
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Виноград", "unit": "г", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Форель и тушеный шпинат",
+          "protein_type": "animal",
+          "dish_type": ["fish"],
+          "ingredients": [
+            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Шпинат тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить шпинат (около 800 гр сырого). 2. Запечь форель (около 180-200 гр сырой). 3. Выложить тушеный шпинат в основание боула. 4. Добавить сверху кусочки запеченой форели. 5. Приправить черным молотым перцем и полить маслом авокадо."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "block": "sama",
+      "day": 7,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи Персик + Киви + Йогурт",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Персик", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Киви", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 100, "weight_raw": 100 }
+          ],
+          "method": "Измельчить в блендере."
+        },
+        "lunch": {
+          "name": "Жаркое из Кальмара и Кабачка",
+          "protein_type": "animal",
+          "dish_type": ["seafood"],
+          "ingredients": [
+            { "product": "Кальмар тушеный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Кабачок тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить кальмар (около 200гр сырого). 2. Потушить кабачок (около 250-260гр сырого). 3. Выложить теплый тушеный кабачок в основание боула. 4. Добавить сверху тушеный кальмар. 5. Приправить перцем и полить кунжутным маслом."
+        },
+        "snack": {
+          "name": "Качотта + Яблоко",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "fruit"],
+          "ingredients": [
+            { "product": "Сыр Качотта", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 180, "weight_raw": 180 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Говядина + Фасоль стручковая",
+          "protein_type": "animal",
+          "dish_type": ["meat", "vegetable"],
+          "ingredients": [
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить говядину (около 250 гр сырого). 2. Потушить фасоль стручковую (около 250 гр сырой). 3. Выложить теплую стручковую фасоль в основание боула. 4. Добавить сверху тушеную говядину. 5. Приправить перцем и полить оливковым маслом."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "block": "sama",
+      "day": 8,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Суп пюре из Брокколи",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Брокколи отварная", "unit": "г", "weight_cooked": 250, "weight_raw": 325 },
+            { "product": "Миндальное молоко", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Пармезан", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Отварить брокколи (около 350-400гр сырого). 2. Пробить брокколи и молоко блендером. 3. Добавить пармезан и перец."
+        },
+        "snack": {
+          "name": "Моцарелла Буффало + Хурма",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "fruit"],
+          "ingredients": [
+            { "product": "Моцарелла", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Хурма", "unit": "г", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Запеканка из Индейки и Цветной капусты",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "baked"],
+          "ingredients": [
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Смешать ингредиенты (около 215-220 гр сырой индейки, около 250-260 гр капусты). 2. Прогреть в духовке 10 минут."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "block": "sama",
+      "day": 9,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт + Мандарин + Грецкий орех",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Мандарин", "unit": "г", "weight_cooked": 180, "weight_raw": 180 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 15, "weight_raw": 15 }
+          ],
+          "method": "1. Выложить йогурт в миску. 2. Очистить мандарин, разделить или нарезать и добавить к йогурту. 3. Посыпать измельченным грецким орехом."
+        },
+        "lunch": {
+          "name": "Телятина + Шампиньоны + Цукини",
+          "protein_type": "animal",
+          "dish_type": ["meat", "mushroom"],
+          "ingredients": [
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Шампиньоны тушеные", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Цукини тушеный", "unit": "г", "weight_cooked": 95, "weight_raw": 120 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить телятину (около 250 гр сырой), потушить шампиньоны (около 225-250 гр сырых), потушить цукини (около 150-160гр сырого). 2. Выложить тушеный цукини, добавить шампиньоны, сверху или рядом выложить тушеную телятину. 3. Приправить перцем и полить оливковым маслом."
+        },
+        "snack": {
+          "name": "Таледжио + Груша",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "fruit"],
+          "ingredients": [
+            { "product": "Сыр Таледжио", "unit": "г", "weight_cooked": 70, "weight_raw": 70 },
+            { "product": "Груша", "unit": "г", "weight_cooked": 180, "weight_raw": 180 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Креветки + Манго + Шпинат",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "fruit"],
+          "ingredients": [
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Отварить креветки. 2. Выложить свежий шпинат на тарелку. 3. Добавить сверху креветки. 4. Манго нарезать кубиками и распределить по салату. 5. Приправить перцем и полить кунжутным маслом."
+        }
+      }
+    },
+    {
+      "id": 35,
+      "block": "sama",
+      "day": 10,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Палтус + Батат",
+          "protein_type": "animal",
+          "dish_type": ["fish", "baked"],
+          "ingredients": [
+            { "product": "Палтус запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Батат запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь палтус (около 200 гр сырого). 2. Запечь батат (около 250-260 гр сырого). 3. Выложить теплый батат и добавить кусочки запеченного палтуса. 4. Приправить перцем и полить маслом."
+        },
+        "snack": {
+          "name": "Бри + Киви",
+          "protein_type": "animal",
+          "dish_type": ["cheese", "fruit"],
+          "ingredients": [
+            { "product": "Сыр Бри", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Киви", "unit": "г", "weight_cooked": 180, "weight_raw": 180 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Баклажан запеченный + Козий сыр",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "baked", "cheese"],
+          "ingredients": [
+            { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Козий сыр мягкий", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь баклажан (около 265-270 гр сырого). 2. Выложить теплый баклажан на тарелку. 3. Добавить сверху мягкий козий сыр. 4. Приправить перцем и полить маслом авокадо."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "block": "sama",
+      "day": 11,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Судак + Кабачок + Кунжутное масло",
+          "protein_type": "animal",
+          "dish_type": ["fish"],
+          "ingredients": [
+            { "product": "Судак запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Кабачок тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь судака (около 200гр сырого). 2. Потушить кабачок (около 250-260гр сырого). 3. Выложить теплый кабачок, сверху добавить кусочки запеченного судака. 4. Приправить перцем и полить кунжутным маслом."
+        },
+        "snack": {
+          "name": "Авокадо мякоть + Оливки",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Авокадо мякоть", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Оливки зеленые без косточки", "unit": "г", "weight_cooked": 80, "weight_raw": 80 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Телятина + Шампиньоны",
+          "protein_type": "animal",
+          "dish_type": ["meat", "mushroom"],
+          "ingredients": [
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Шампиньоны тушеные", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить телятину (около 215гр сырой). 2. Потушить шампиньоны (около 270гр сырых). 3. Выложить тушеные шампиньоны, добавить сверху тушеную телятину. 4. Приправить перцем и полить маслом."
+        }
+      }
+    },
+    {
+      "id": 37,
+      "block": "sama",
+      "day": 12,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт + Манго + Орехи",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Манго", "unit": "г", "weight_cooked": 180, "weight_raw": 180 },
+            { "product": "Грецкий орех", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Выложить йогурт в миску. 2. Манго нарезать кубиками и добавить сверху. 3. Посыпать измельченным грецким орехом."
+        },
+        "lunch": {
+          "name": "Курица + Батат",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "baked"],
+          "ingredients": [
+            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Батат запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить курицу (около 215гр сырой). 2. Запечь батат (около 250гр сырого). 3. Выложить теплый запеченный батат и добавить сверху тушенную курицу. 4. Приправить черным перцем и полить маслом авокадо."
+        },
+        "snack": {
+          "name": "Хумус + Огурец",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "raw"],
+          "ingredients": [
+            { "product": "Хумус", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Лосось + Брокколи",
+          "protein_type": "animal",
+          "dish_type": ["fish", "vegetable"],
+          "ingredients": [
+            { "product": "Лосось запеченный", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь лосось (около 190гр сырого). 2. Отварить брокколи (около 250гр сырого). 3. Выложить теплую брокколи и добавить сверху запеченный лосось. 4. Приправить черным перцем и полить оливковым маслом."
+        }
+      }
+    },
+    {
+      "id": 38,
+      "block": "sama",
+      "day": 13,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Суп из шпината и цветной капусты",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Шпинат тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Миндальное молоко", "unit": "мл", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Отварить цветную капусту (около 190гр сырой). 2. Потушить шпинат (около 800гр сырого). 3. Пробить блендером шпинат и капусту с молоком."
+        },
+        "snack": {
+          "name": "Гауда + Миндаль",
+          "protein_type": "animal",
+          "dish_type": ["cheese"],
+          "ingredients": [
+            { "product": "Сыр Гауда", "unit": "г", "weight_cooked": 70, "weight_raw": 70 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 25, "weight_raw": 25 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Креветки + Стручковая Фасоль",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "vegetable"],
+          "ingredients": [
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Отварить креветки. 2. Потушить фасоль (около 250гр сырой). 3. Выложить теплую стручковую фасоль и добавить сверху креветки. 4. Приправить черным перцем и полить кунжутным маслом."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "block": "sama",
+      "day": 14,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи Банан + Киви + Рикотта",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit", "cheese"],
+          "ingredients": [
+            { "product": "Банан", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Киви", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 100, "weight_raw": 100 }
+          ],
+          "method": "1. Очистить банан и киви, нарезать кусочками. 2. Переложить фрукты и рикотту в блендер. 3. Взбить до однородной кремовой консистенции."
+        },
+        "lunch": {
+          "name": "Индейка + Цветная Капуста",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "vegetable"],
+          "ingredients": [
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить индейку (около 200гр сырой). 2. Отварить цветную капусту (около 250гр сырой). 3. Выложить теплую капусту и добавить тушеную индейку. 4. Приправить черным перцем и полить маслом."
+        },
+        "snack": {
+          "name": "Авокадо + Арахисовая паста",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Авокадо мякоть", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Арахисовая паста", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Форель + Цукини",
+          "protein_type": "animal",
+          "dish_type": ["fish", "vegetable"],
+          "ingredients": [
+            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Цукини тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь форель (около 200гр сырой). 2. Потушить цукини (около 250гр сырой). 3. Выложить теплый цукини и добавить сверху запеченную форель, разделив на кусочки. 4. Приправить черным перцем и полить маслом авокадо."
+        }
+      }
+    },
+    {
+      "id": 40,
+      "block": "sama",
+      "day": 15,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Говядина + Баклажан",
+          "protein_type": "animal",
+          "dish_type": ["meat", "vegetable"],
+          "ingredients": [
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить говядину (около 270-300 сырой). 2. Запечь баклажан (около 260гр сырой). 3. Выложить теплый баклажан и добавить сверху тушеную говядину. 4. Приправить черным перцем и полить маслом."
+        },
+        "snack": {
+          "name": "Яйцо + Авокадо",
+          "protein_type": "animal",
+          "dish_type": ["egg", "fruit"],
+          "ingredients": [
+            { "product": "Яйцо вареное", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Авокадо мякоть", "unit": "г", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Отварить яйцо."
+        },
+        "dinner": {
+          "name": "Тофу + Брокколи",
+          "protein_type": "plant",
+          "dish_type": ["tofu", "vegetable"],
+          "ingredients": [
+            { "product": "Тофу обжаренный", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Отварить брокколи (около 250гр сырой). 2. Обжарить тофу. 3. Выложить теплую брокколи и добавить сверху обжаренный тофу. 4. Приправить черным перцем и полить маслом."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "block": "sama",
+      "day": 16,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Теплый салат с говядиной, черной фасолью и кукурузой",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad"],
+          "ingredients": [
+            { "product": "Говядина", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Черная фасоль вареная", "unit": "г", "weight_cooked": 70, "weight_raw": 28 },
+            { "product": "Кукуруза вареная", "unit": "г", "weight_cooked": 50, "weight_raw": 65 },
+            { "product": "Салат Ромэн", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Лайм", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Паприка копченая", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Тмин", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Чеснок", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Нарезать тонко говядину (около 165гр сырой), быстро обжарить 2-3 мин с чесноком и специями. 2. Отварить фасоль (около 30 гр сухой) и кукурузу (около 17гр сырой). 3. Смешать говядину, фасоль, кукурузу с зеленью, сбрызнуть лаймом и маслом."
+        },
+        "snack": {
+          "name": "Авокадо с творогом и лимоном на хлебце",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "cheese"],
+          "ingredients": [
+            { "product": "Авокадо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Творог", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Хлебец", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Размять авокадо, смешать с творогом и лимонным соком. 2. Намазать смесь на хлебец, украсить кинзой."
+        },
+        "dinner": {
+          "name": "Салат с Курицей, печеным перцем и зеленым салатом",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Курица", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Перец красный сладкий", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Салат Айсберг", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Лук красный", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Уксус яблочный", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запечь или обжарить филе до готовности (около 140-150гр сырого). 2. Запечь перец (около 85гр сырого) 20 мин при 200°С, очистить от кожи. 3. Нарезать все, соединить и заправить."
+        }
+      }
+    },
+    {
+      "id": 42,
+      "block": "sama",
+      "day": 17,
+      "meals": {
+        "breakfast": {
+          "name": "Смузи с Манго и овсянной мукой",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit"],
+          "ingredients": [
+            { "product": "Манго", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Банан", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Йогурт натуральный", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Мука овсяная", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Корица", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "Все взбить до однородности блендером. Подавать охлажденным."
+        },
+        "lunch": {
+          "name": "Салат с запеченной Треской, томатами и миксом листьев",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Треска", "unit": "г", "weight_cooked": 120, "weight_raw": 145 },
+            { "product": "Помидор", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Микс листьев", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Лайм", "unit": "шт", "weight_cooked": 0.5, "weight_raw": 0.5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Чили хлопья", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Запечь треску (около 150 гр сырой) при 180°С 15-18 минут, сбрызнув лаймом. 2. Нарезать помидоры, собрать все и заправить."
+        },
+        "snack": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Салат с запеченной индейкой, сладким картофелем и кинзой",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Индейка", "unit": "г", "weight_cooked": 100, "weight_raw": 130 },
+            { "product": "Батат", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Кинза свежая", "unit": "г", "weight_cooked": 10, "weight_raw": 10 },
+            { "product": "Салат Лист", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запечь батат (около 80гр сырого) и индейку (около 130гр сырой) по отдельности — 25 минут при 180°С. 2. Нарезать все, соединить и подать с зеленью и заправкой."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "block": "sama",
+      "day": 18,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с тунцом, авокадо и печеным луком",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad"],
+          "ingredients": [
+            { "product": "Тунец в собственном соку", "unit": "г", "weight_cooked": 80, "weight_raw": 80 },
+            { "product": "Авокадо", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Лук красный", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Салат Ромэн", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Винный уксус", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запечь лук с каплей масла 15 минут при 180°С. 2. Нарезать все, соединить и заправить."
+        },
+        "snack": {
+          "name": "Салат с огурцом, редисом и козьим сыром",
+          "protein_type": "animal",
+          "dish_type": ["vegetable", "salad", "cheese"],
+          "ingredients": [
+            { "product": "Огурец", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Редис", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Козий сыр мягкий", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Листовая зелень", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лимонный сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "Нарезать овощи тонко, покрошить сыр, соединить все."
+        },
+        "dinner": {
+          "name": "Салат с чечевицей, говядиной и рукколой",
+          "protein_type": "animal",
+          "dish_type": ["meat", "salad", "legume"],
+          "ingredients": [
+            { "product": "Чечевица отварная", "unit": "г", "weight_cooked": 60, "weight_raw": 24 },
+            { "product": "Говядина запеченная", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Руккола", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Помидор", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Горчица дижонская", "unit": "ч.л.", "weight_cooked": 2, "weight_raw": 2 }
+          ],
+          "method": "1. Запечь говядину (около 165-180 гр сырой). 2. Отварить чечевицу (около 20гр сухой). 3. Нарезать говядину тонко, все смешать и подать с заправкой."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "block": "sama",
+      "day": 19,
+      "meals": {
+        "breakfast": {
+          "name": "Овсяно-Рисовая запеканка с яблоком",
+          "protein_type": "animal",
+          "dish_type": ["grain", "baked", "fruit"],
+          "ingredients": [
+            { "product": "Овсянка", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Рис вареный", "unit": "г", "weight_cooked": 40, "weight_raw": 14 },
+            { "product": "Яблоко", "unit": "г", "weight_cooked": 70, "weight_raw": 70 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Корица", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Отварить рис (около 15гр сухого). 2. Смешать все ингредиенты, запечь 20 минут при 180°С в форме."
+        },
+        "lunch": {
+          "name": "Салат с Кальмарами, кукурузой и огурцом",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "salad"],
+          "ingredients": [
+            { "product": "Кальмар отварной", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Кукуруза", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Салат Лист", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лайм сок", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Отварить кальмаров 2 мин, очистить и нарезать. 2. Соединить все и подать охлажденным."
+        },
+        "snack": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Салат с Квашеной капустой, картофелем и индейкой",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "salad"],
+          "ingredients": [
+            { "product": "Капуста квашеная", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Картофель отварной", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Индейка", "unit": "г", "weight_cooked": 90, "weight_raw": 115 },
+            { "product": "Петрушка", "unit": "щепотка", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Запечь индейку (около 130гр сырой), отварить картофель (около 70гр сырого). 2. Нарезать картофель, соединить все и подать слегка теплым."
+        }
+      }
+    },
+    {
+      "id": 45,
+      "block": "sama",
+      "day": 20,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 120, "weight_raw": 120 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Салат с рисом, фасолью, зеленью и омлетом по-мексикански",
+          "protein_type": "animal",
+          "dish_type": ["grain", "salad", "egg"],
+          "ingredients": [
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 2, "weight_raw": 2 },
+            { "product": "Рис вареный", "unit": "г", "weight_cooked": 60, "weight_raw": 20 },
+            { "product": "Фасоль отварная", "unit": "г", "weight_cooked": 60, "weight_raw": 24 },
+            { "product": "Салат Романо", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Лук зеленый", "unit": "щепотка", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 }
+          ],
+          "method": "1. Отварить рис (около 25гр сухого). 2. Приготовить омлет, нарезать его полосками. 3. Соединить все и подать теплым."
+        },
+        "snack": {
+          "name": "Каша из поленты с тыквой и кокосовой стружкой",
+          "protein_type": "plant",
+          "dish_type": ["grain", "vegetable"],
+          "ingredients": [
+            { "product": "Полента", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Тыква печеная", "unit": "г", "weight_cooked": 60, "weight_raw": 80 },
+            { "product": "Кокосовая стружка", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Вода", "unit": "мл", "weight_cooked": 150, "weight_raw": 150 }
+          ],
+          "method": "1. Отварить поленту до готовности (около 10-15гр сухой). 2. Запечь тыкву (около 120 гр сырой). 3. Тыкву в пюре и добавить к поленте, посыпать сверху кокосом."
+        },
+        "dinner": {
+          "name": "Салат с рыбой на гриле, миксом зелени и апельсином",
+          "protein_type": "animal",
+          "dish_type": ["fish", "salad", "grilled"],
+          "ingredients": [
+            { "product": "Треска", "unit": "г", "weight_cooked": 100, "weight_raw": 120 },
+            { "product": "Апельсин", "unit": "г", "weight_cooked": 60, "weight_raw": 60 },
+            { "product": "Микс салатов", "unit": "г", "weight_cooked": 40, "weight_raw": 40 },
+            { "product": "Оливковое масло", "unit": "ч.л.", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лайм", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Перец черный", "unit": "щепотка", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Обжарить рыбу на гриле или запечь (около 130-140гр сырой). 2. Нарезать апельсин, соединить все и подать с цитрусовой заправкой."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "block": "sama",
+      "day": 21,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Треска + Фенхель + Апельсин",
+          "protein_type": "animal",
+          "dish_type": ["fish", "vegetable"],
+          "ingredients": [
+            { "product": "Треска запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Фенхель тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Апельсиновая цедра", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь треску (около 200гр сырой). 2. Фенхель потушить. 3. Добавить треску, масло и цедру."
+        },
+        "snack": {
+          "name": "Хумус + Сельдерей",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "raw"],
+          "ingredients": [
+            { "product": "Хумус", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Сельдерей стебель", "unit": "г", "weight_cooked": 180, "weight_raw": 180 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Индейка + Артишоки",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "vegetable"],
+          "ingredients": [
+            { "product": "Индейка тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Артишоки тушеные", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить индейку (около 215гр сырой). 2. Потушить артишоки. 3. Выложить тушеные артишоки, добавить сверху тушеную индейку. 4. Приправить перцем и полить маслом авокадо."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "block": "sama",
+      "day": 22,
+      "meals": {
+        "breakfast": {
+          "name": "Йогурт + кумкват + фундук",
+          "protein_type": "animal",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Кумкват", "unit": "г", "weight_cooked": 180, "weight_raw": 180 },
+            { "product": "Фундук", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "1. Выложить йогурт в миску. 2. Кумкват нарезать кружочками, удалив косточки при необходимости. 3. Добавить к йогурту. 4. Посыпать измельченным фундуком."
+        },
+        "lunch": {
+          "name": "Креветки + Спаржа + Лайм",
+          "protein_type": "animal",
+          "dish_type": ["seafood", "vegetable"],
+          "ingredients": [
+            { "product": "Креветки", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Спаржа тушеная", "unit": "г", "weight_cooked": 200, "weight_raw": 250 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Лайм сок", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить спаржу. 2. Отварить креветки. 3. Выложить теплую тушеную спаржу на тарелку. 4. Добавить сверху очищенные креветки. 5. Приправить черным перцем. 6. Сбрызнуть соком лайма и полить кунжутным маслом."
+        },
+        "snack": {
+          "name": "Авокадо + Тахини",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Авокадо мякоть", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Тахини", "unit": "г", "weight_cooked": 20, "weight_raw": 20 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Телятина + Бак Чой",
+          "protein_type": "animal",
+          "dish_type": ["meat", "vegetable"],
+          "ingredients": [
+            { "product": "Телятина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Бок-чой тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить телятину. 2. Потушить бок-чой. 3. Выложить теплый тушеный бок-чой на тарелку. 4. Добавить сверху тушеную телятину. 5. Приправить перцем и полить оливковым маслом."
+        }
+      }
+    },
+    {
+      "id": 48,
+      "block": "sama",
+      "day": 23,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Суп из зеленого горошка и мяты",
+          "protein_type": "plant",
+          "dish_type": ["soup", "vegetable"],
+          "ingredients": [
+            { "product": "Зеленый горошек", "unit": "г", "weight_cooked": 220, "weight_raw": 220 },
+            { "product": "Миндальное молоко", "unit": "мл", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Мята", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "Пробить горошек с молоком и мятой."
+        },
+        "snack": {
+          "name": "Оливки + Миндаль",
+          "protein_type": "plant",
+          "dish_type": ["raw"],
+          "ingredients": [
+            { "product": "Оливки без косточки", "unit": "г", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Миндаль", "unit": "г", "weight_cooked": 25, "weight_raw": 25 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Скумбрия + Зеленая Фасоль",
+          "protein_type": "animal",
+          "dish_type": ["fish", "vegetable"],
+          "ingredients": [
+            { "product": "Скумбрия запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Фасоль стручковая", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь скумбрию. 2. Потушить фасоль. 3. Выложить теплую стручковую фасоль на тарелку. 4. Добавить сверху кусочки запеченной скумбрии. 5. Приправить черным перцем и полить маслом авокадо."
+        }
+      }
+    },
+    {
+      "id": 49,
+      "block": "sama",
+      "day": 24,
+      "meals": {
+        "breakfast": {
+          "name": "Груша + Шпинат + Рикотта",
+          "protein_type": "animal",
+          "dish_type": ["smoothie", "fruit", "cheese"],
+          "ingredients": [
+            { "product": "Груша", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Шпинат", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Рикотта", "unit": "г", "weight_cooked": 100, "weight_raw": 100 }
+          ],
+          "method": "1. Грушу очистить и нарезать кусочками. 2. Выложить грушу, шпинат и рикотту в блендер. 3. Взбить до однородной консистенции."
+        },
+        "lunch": {
+          "name": "Курица + Карамелизированный лук-порей + Виноград",
+          "protein_type": "animal",
+          "dish_type": ["poultry", "vegetable", "fruit"],
+          "ingredients": [
+            { "product": "Курица тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Лук-порей тушеный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Виноград", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить курицу (около 200 гр сырой). 2. Потушить лук-порей. 3. Выложить тушеный лук и добавить сверху тушеную курицу. 4. Разложить виноград. 5. Приправить перцем и полить оливковым маслом."
+        },
+        "snack": {
+          "name": "Паштет из тунца + Огурец",
+          "protein_type": "animal",
+          "dish_type": ["fish", "vegetable"],
+          "ingredients": [
+            { "product": "Тунец в собственном соку", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Огурец", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Йогурт", "unit": "г", "weight_cooked": 30, "weight_raw": 30 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Слить жидкость у тунца. 2. Огурец нарезать кубиками. 3. Добавить тунец. 4. Заправить йогуртом. 5. Приправить черным перцем и аккуратно перемешать."
+        },
+        "dinner": {
+          "name": "Тофу + Баклажан + Кунжут",
+          "protein_type": "plant",
+          "dish_type": ["tofu", "vegetable"],
+          "ingredients": [
+            { "product": "Тофу обжаренный", "unit": "г", "weight_cooked": 150, "weight_raw": 150 },
+            { "product": "Баклажан запеченный", "unit": "г", "weight_cooked": 200, "weight_raw": 260 },
+            { "product": "Масло кунжутное", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Кунжут", "unit": "г", "weight_cooked": 3, "weight_raw": 3 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Обжарить тофу. 2. Запечь баклажан (около 250гр сырого). 3. Выложить теплый запеченный баклажан на тарелку. 4. Добавить сверху обжаренный тофу. 5. Приправить черным перцем и полить кунжутным маслом. 6. Посыпать кунжутом."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "block": "sama",
+      "day": 25,
+      "meals": {
+        "breakfast": {
+          "name": "Вишня + Кофе",
+          "protein_type": "plant",
+          "dish_type": ["fruit", "raw"],
+          "ingredients": [
+            { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "lunch": {
+          "name": "Говядина + Цветная Капуста + Фенхель",
+          "protein_type": "animal",
+          "dish_type": ["meat", "vegetable"],
+          "ingredients": [
+            { "product": "Говядина тушеная", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 150, "weight_raw": 195 },
+            { "product": "Фенхель тушеный", "unit": "г", "weight_cooked": 100, "weight_raw": 125 },
+            { "product": "Масло авокадо", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Потушить говядину (около 200гр сырой). 2. Потушить цветную капусту и фенхель. 3. Выложить цветную капусту и тушеный фенхель. 4. Добавить сверху тушеную говядину. 5. Приправить черным перцем и полить маслом авокадо."
+        },
+        "snack": {
+          "name": "Фисташковая паста + Морковь",
+          "protein_type": "plant",
+          "dish_type": ["vegetable", "raw"],
+          "ingredients": [
+            { "product": "Фисташковая паста", "unit": "г", "weight_cooked": 25, "weight_raw": 25 },
+            { "product": "Морковь", "unit": "г", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Форель + Манго + Паприка копченая",
+          "protein_type": "animal",
+          "dish_type": ["fish", "fruit"],
+          "ingredients": [
+            { "product": "Форель запеченная", "unit": "г", "weight_cooked": 150, "weight_raw": 180 },
+            { "product": "Манго", "unit": "г", "weight_cooked": 120, "weight_raw": 120 },
+            { "product": "Оливковое масло", "unit": "г", "weight_cooked": 5, "weight_raw": 5 },
+            { "product": "Паприка копченая", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 0.5, "weight_raw": 0.5 }
+          ],
+          "method": "1. Запечь форель (около 200гр сырой). 2. Манго нарезать кубиками и выложить на тарелку. 3. Добавить сверху запеченную форель. 4. Приправить паприкой и черным перцем. 5. Полить оливковым маслом."
+        }
+      }
+    },
+    {
+      "id": 999,
+      "block": "custom",
+      "day": 1,
+      "meals": {
+        "breakfast": {
+          "name": "Название завтрака",
+          "protein_type": "plant",
+          "dish_type": ["vegetable"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
+            { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "lunch": {
+          "name": "Название обеда",
+          "protein_type": "animal",
+          "dish_type": ["meat"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "snack": {
+          "name": "Название перекуса",
+          "protein_type": "plant",
+          "dish_type": ["fruit"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "dinner": {
+          "name": "Название ужина",
+          "protein_type": "mixed",
+          "dish_type": ["soup"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        }
+      }
+    }
+  ]
+}
