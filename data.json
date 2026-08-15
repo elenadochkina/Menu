@@ -6,7 +6,7 @@
       "day": 1,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -31,7 +31,7 @@
           "method": "1. Тофу нарезать кубиками, обжарить 3 мин. 2. Морковь натереть, огурец нарезать соломкой. 3. Всё соединить с латуком, посыпать кунжутом, заправить соевым соусом с тёртым имбирём."
         },
         "snack": {
-          "name": "Смузи с манго и ананасом",
+          "name": "Смузи (манго + ананас + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -63,7 +63,7 @@
       "day": 2,
       "meals": {
         "breakfast": {
-          "name": "Йогурт греческий — 150 г, Киви — 120 г, Кешью — 15 г, Чиа — 10 г",
+          "name": "Йогурт + Киви + Кешью + Чиа",
           "protein_type": "animal",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -122,7 +122,7 @@
       "day": 3,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -146,7 +146,7 @@
           "method": "1. Тофу нарезать кубиками, запечь при 200°С 10 мин. 2. Манго и огурец нарезать кубиками. 3. Всё соединить с ромэном, посыпать семенами, сбрызнуть лаймом."
         },
         "snack": {
-          "name": "Тропическое зеленое ням",
+          "name": "Смузи (маракуйя + апельсин + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -179,7 +179,7 @@
       "day": 4,
       "meals": {
         "breakfast": {
-          "name": "Смузи боул",
+          "name": "Смузи боул (банан + ананас + йогурт + семена льна + миндаль)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -237,7 +237,7 @@
       "day": 5,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -261,7 +261,7 @@
           "method": "1. Эдамаме отварить 5 мин. 2. Авокадо и огурец нарезать кубиками. 3. Всё соединить с латуком, сбрызнуть лаймом, посыпать кунжутом."
         },
         "snack": {
-          "name": "Смузи с киви",
+          "name": "Смузи (киви + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -294,12 +294,12 @@
       "day": 6,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американко — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
             { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
           ],
           "method": "Без приготовления"
         },
@@ -318,7 +318,7 @@
           "method": "1. Кальмара отварить 3 мин, нарезать кольцами. 2. Апельсин разобрать на дольки. 3. Всё соединить с латуком и огурцом, посыпать кунжутом, заправить маслом."
         },
         "snack": {
-          "name": "Смузи из клубники и шпината",
+          "name": "Смузи (клубника + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -350,7 +350,7 @@
       "day": 7,
       "meals": {
         "breakfast": {
-          "name": "Йогурт греческий — 150 г, Инжир — 120 г, Грецкий орех — 15 г, Чиа — 10 г",
+          "name": "Йогурт + Инжир + Грецкий орех + Чиа",
           "protein_type": "animal",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -406,7 +406,7 @@
       "day": 8,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -430,7 +430,7 @@
           "method": "1. Булгур сварить 12 мин. 2. Мидии протушить 5 мин. 3. Всё соединить с овощами и рукколой, заправить маслом."
         },
         "snack": {
-          "name": "Смузи с апельсином и шпинатом",
+          "name": "Смузи (брусника + апельсин + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -463,7 +463,7 @@
       "day": 9,
       "meals": {
         "breakfast": {
-          "name": "Смузи бол",
+          "name": "Смузи боул (банан + голубика + йогурт + семена льна + миндаль",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -521,7 +521,7 @@
       "day": 10,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -545,7 +545,7 @@
           "method": "1. Помидоры, морковь, сельдерей и лук томить 15 мин. 2. Добавить кольца кальмара, варить 3 мин. 3. Подать с маслом."
         },
         "snack": {
-          "name": "Смузи из ежевики и яблоком",
+          "name": "Смузи (ежевика + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -577,7 +577,7 @@
       "day": 11,
       "meals": {
         "breakfast": {
-          "name": "Вишня – 200 г + Американо – 120 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -600,7 +600,7 @@
           "method": "1. Обжаривай печень по 2 минуты с каждой стороны до розовой середины, затем остуди. 2. Нарежь яблоко дольками. 3. Смешай с зеленью, заправь и подавай при комнатной температуре."
         },
         "snack": {
-          "name": "Смузи с перловкой, грушей и кефиром",
+          "name": "Смузи (перловка + груша + кефир + гвоздика)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "grain"],
           "ingredients": [
@@ -659,7 +659,7 @@
           "method": "1. Запеки свёклу при 180°С 40 минут. 2. Нарежь её ломтиками. 3. Разбери индейку на кусочки. 4. Смешай всё и посыпь орехами."
         },
         "snack": {
-          "name": "Смузи с просом, малиной и базиликом",
+          "name": "Смузи (просо + малина + базилик + йогурт)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "grain"],
           "ingredients": [
@@ -691,7 +691,7 @@
       "day": 13,
       "meals": {
         "breakfast": {
-          "name": "Вишня – 200 г + Американо – 120 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -715,7 +715,7 @@
           "method": "1. Вари желудки 1,5 часа, нарежь. 2. Нарежь огурец соломкой. 3. Смешай всё и заправь."
         },
         "snack": {
-          "name": "Смузи с полбой, сливой и корицей",
+          "name": "Смузи (полба + слива + кефир + корица)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "grain"],
           "ingredients": [
@@ -773,7 +773,7 @@
           "method": "1. Отвари или запеки грудку, нарежь. 2. Разрежь виноград пополам. 3. Смешай всё и посыпь семечками."
         },
         "snack": {
-          "name": "Смузи из киноа, апельсина и мяты",
+          "name": "Смузи (киноа + апельсин + мята + йогурт)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "grain"],
           "ingredients": [
@@ -805,7 +805,7 @@
       "day": 15,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г + Американо — 120 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -828,7 +828,7 @@
           "method": "1. Вари кальмары 2 минуты, нарежь. 2. Нарежь помидоры дольками. 3. Смешай всё и заправь."
         },
         "snack": {
-          "name": "Смузи с булгуром, персиком и мятой",
+          "name": "Смузи (булгур + персик + йогурт + мята)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "grain"],
           "ingredients": [
@@ -860,12 +860,12 @@
       "day": 16,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американко — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
             { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
           ],
           "method": "Без приготовления"
         },
@@ -884,7 +884,7 @@
           "method": "1. Сёмгу нарезать слайсами. 2. Клубнику разрезать пополам. 3. Всё соединить с ромэном и огурцом, посыпать кунжутом, заправить маслом."
         },
         "snack": {
-          "name": "Смузи с малиной, шпинатом и яблоком",
+          "name": "Смузи (малина + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -973,7 +973,7 @@
       "day": 18,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -998,7 +998,7 @@
           "method": "1. Киноа сварить 15 мин. 2. Сибас обжарить на гриле 5 мин, сбрызнуть лимоном. 3. Морковь натереть, огурец нарезать соломкой. 4. Всё соединить с рукколой."
         },
         "snack": {
-          "name": "Смузи с клюквой и апельсином",
+          "name": "Смузи (клюква + апельсин + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1031,7 +1031,7 @@
       "day": 19,
       "meals": {
         "breakfast": {
-          "name": "Смузи болу",
+          "name": "Смузи боул (банан + ананас + йогурт + семена льна + кешью)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1090,12 +1090,12 @@
       "day": 20,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американко — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
             { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
           ],
           "method": "Без приготовления"
         },
@@ -1113,7 +1113,7 @@
           "method": "1. Капусту, картофель и лук отварить 15 мин, пробить в пюре. 2. Лосося запечь при 190°С 15 мин. 3. Подать суп с кусочками рыбы."
         },
         "snack": {
-          "name": "Смузи с манго и апельсином",
+          "name": "Смузи (манго + апельсин + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1145,7 +1145,7 @@
       "day": 21,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американо — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
@@ -1169,7 +1169,7 @@
           "method": "1. Телятина обжарить 8–10 мин, нарезать слайсами. 2. Свёклу запечь при 200°С 35 мин, нарезать дольками. 3. Всё соединить с латуком и орехами, заправить маслом."
         },
         "snack": {
-          "name": "Смузи с клубникой и шпинатом",
+          "name": "Смузи (клубника + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1260,12 +1260,12 @@
       "day": 23,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американко — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
             { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Американко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
           ],
           "method": "Без приготовления"
         },
@@ -1285,7 +1285,7 @@
           "method": "1. Нут замочить, варить 40 мин. 2. Овощи нарезать, авокадо — кубиками. 3. Всё соединить, посыпать кунжутом, заправить маслом."
         },
         "snack": {
-          "name": "Смузи с киви и шпинатом",
+          "name": "Смузи (киви + апельсин + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1317,7 +1317,7 @@
       "day": 24,
       "meals": {
         "breakfast": {
-          "name": "Смузи боул",
+          "name": "Смузи боул (банан + голубика + йогурт + семена льна + кешью",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1375,12 +1375,12 @@
       "day": 25,
       "meals": {
         "breakfast": {
-          "name": "Вишня — 200 г Американю — 200 мл",
+          "name": "Вишня + Кофе",
           "protein_type": "plant",
           "dish_type": ["fruit", "raw"],
           "ingredients": [
             { "product": "Вишня", "unit": "г", "weight_cooked": 200, "weight_raw": 200 },
-            { "product": "Американю", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
+            { "product": "Американо", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 }
           ],
           "method": "Без приготовления"
         },
@@ -1399,7 +1399,7 @@
           "method": "1. Курицу обжарить 8–10 мин, нарезать слайсами. 2. Манго нарезать кубиками. 3. Всё соединить, посыпать орехами, заправить маслом."
         },
         "snack": {
-          "name": "Смузи с брусникой и шпинатом",
+          "name": "Смузи (брусника + яблоко + шпинат)",
           "protein_type": "plant",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -1787,7 +1787,7 @@
       "day": 7,
       "meals": {
         "breakfast": {
-          "name": "Смузи Персик + Киви + Йогурт",
+          "name": "Смузи (персик + киви + йогурт)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -2149,7 +2149,7 @@
       "day": 14,
       "meals": {
         "breakfast": {
-          "name": "Смузи Банан + Киви + Рикотта",
+          "name": "Смузи (банан + киви + рикотта)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit", "cheese"],
           "ingredients": [
@@ -2312,7 +2312,7 @@
       "day": 17,
       "meals": {
         "breakfast": {
-          "name": "Смузи с Манго и овсянной мукой",
+          "name": "Смузи (манго + банан + йогурт + мука + корица)",
           "protein_type": "animal",
           "dish_type": ["smoothie", "fruit"],
           "ingredients": [
@@ -2802,49 +2802,59 @@
         }
       }
     },
-    {
-      "id": 999,
-      "block": "custom",
-      "day": 1,
-      "meals": {
-        "breakfast": {
-          "name": "Название завтрака",
-          "protein_type": "plant",
-          "dish_type": ["vegetable"],
-          "ingredients": [
-            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
-            { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
-          ],
-          "method": "Способ приготовления"
-        },
-        "lunch": {
-          "name": "Название обеда",
-          "protein_type": "animal",
-          "dish_type": ["meat"],
-          "ingredients": [
-            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-          ],
-          "method": "Способ приготовления"
-        },
-        "snack": {
-          "name": "Название перекуса",
-          "protein_type": "plant",
-          "dish_type": ["fruit"],
-          "ingredients": [
-            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-          ],
-          "method": "Способ приготовления"
-        },
-        "dinner": {
-          "name": "Название ужина",
-          "protein_type": "mixed",
-          "dish_type": ["soup"],
-          "ingredients": [
-            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-          ],
-          "method": "Способ приготовления"
-        }
-      }
+{
+  "id": 999,
+  "block": "custom",
+  "day": 1,
+  "meals": {
+    "breakfast": {
+      "name": "Название завтрака",
+      "protein_type": "plant",
+      "dish_type": ["vegetable"],
+      "ingredients": [
+        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
+        { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
+      ],
+      "method": "Способ приготовления"
+    },
+    "lunch": {
+      "name": "Название обеда",
+      "protein_type": "animal",
+      "dish_type": ["meat"],
+      "ingredients": [
+        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+      ],
+      "method": "Способ приготовления"
+    },
+    "snack": {
+      "name": "Название перекуса",
+      "protein_type": "plant",
+      "dish_type": ["fruit"],
+      "ingredients": [
+        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+      ],
+      "method": "Способ приготовления"
+    },
+    "dinner": {
+      "name": "Название ужина",
+      "protein_type": "mixed",
+      "dish_type": ["soup"],
+      "ingredients": [
+        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+      ],
+      "method": "Способ приготовления"
+    },
+    "dessert": {
+      "name": "Название десерта",
+      "protein_type": "plant",
+      "dish_type": ["dessert"],
+      "ingredients": [
+        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
+        { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
+      ],
+      "method": "Способ приготовления десерта"
     }
-  ]
+  }
+}
+]
 }
