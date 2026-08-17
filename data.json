@@ -2802,59 +2802,132 @@
         }
       }
     },
-{
-  "id": 999,
-  "block": "custom",
-  "day": 1,
-  "meals": {
-    "breakfast": {
-      "name": "Название завтрака",
-      "protein_type": "plant",
-      "dish_type": ["vegetable"],
-      "ingredients": [
-        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
-        { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
-      ],
-      "method": "Способ приготовления"
+    {
+      "id": 999,
+      "block": "custom",
+      "day": 1,
+      "meals": {
+        "breakfast": {
+          "name": "Название завтрака",
+          "protein_type": "plant",
+          "dish_type": ["vegetable"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
+            { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "lunch": {
+          "name": "Название обеда",
+          "protein_type": "animal",
+          "dish_type": ["meat"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "snack": {
+          "name": "Название перекуса",
+          "protein_type": "plant",
+          "dish_type": ["fruit"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "dinner": {
+          "name": "Название ужина",
+          "protein_type": "mixed",
+          "dish_type": ["soup"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления"
+        },
+        "dessert": {
+          "name": "Название десерта",
+          "protein_type": "plant",
+          "dish_type": ["dessert"],
+          "ingredients": [
+            { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
+            { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
+          ],
+          "method": "Способ приготовления десерта"
+        }
+      }
     },
-    "lunch": {
-      "name": "Название обеда",
-      "protein_type": "animal",
-      "dish_type": ["meat"],
-      "ingredients": [
-        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-      ],
-      "method": "Способ приготовления"
-    },
-    "snack": {
-      "name": "Название перекуса",
-      "protein_type": "plant",
-      "dish_type": ["fruit"],
-      "ingredients": [
-        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-      ],
-      "method": "Способ приготовления"
-    },
-    "dinner": {
-      "name": "Название ужина",
-      "protein_type": "mixed",
-      "dish_type": ["soup"],
-      "ingredients": [
-        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 }
-      ],
-      "method": "Способ приготовления"
-    },
-    "dessert": {
-      "name": "Название десерта",
-      "protein_type": "plant",
-      "dish_type": ["dessert"],
-      "ingredients": [
-        { "product": "Продукт 1", "unit": "г", "weight_cooked": 0, "weight_raw": 0 },
-        { "product": "Продукт 2", "unit": "мл", "weight_cooked": 0, "weight_raw": 0 }
-      ],
-      "method": "Способ приготовления десерта"
+    {
+      "id": 1000,
+      "block": "custom",
+      "day": 2,
+      "meals": {
+        "breakfast": {
+          "name": "Каша из Пшена",
+          "protein_type": "plant",
+          "dish_type": ["vegetable"],
+          "ingredients": [
+            { "product": "Пшено сухое", "unit": "г", "weight_cooked": 150, "weight_raw": 50 },
+            { "product": "Молоко", "unit": "мл", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Соль", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "сахар", "unit": "г", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Промыть и Отварить пшено (50гр сухого = 1 порция, воды в 3-4 раза больше чем пшена), добавив щепотку соли, до готовности 15-20 мин. 2. За 5 мин до готовности добавить молока (если на молоке). 3. Добавить сахар (1стл на порцию) либо сухофрукты (курага, изюм и т.п.)"
+        },
+        "lunch": {
+          "name": "Хачапури по мегрельски (закрытое)",
+          "protein_type": "aaniml",
+          "dish_type": ["baked"],
+          "ingredients": [
+            { "product": "Молоко", "unit": "мл", "weight_cooked": 200, "weight_raw": 200 },
+            { "product": "Мука", "unit": "гр", "weight_cooked": 100, "weight_raw": 100 },
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 1, "weight_raw": 1},
+            { "product": "Сыр Сулугуни", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Сыр Адыгейский", "unit": "г", "weight_cooked": 50, "weight_raw": 50 },
+            { "product": "Соль", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Сахар", "unit": "г", "weight_cooked": 1, "weight_raw": 1 },
+            { "product": "Разрыхлитель", "unit": "г", "weight_cooked": 1, "weight_raw": 1 }
+          ],
+          "method": "1. Все перемешать (в молоко добавить муку, яйцо, сыр, щепотку соли и щепотку сахара и 0,5 чл разрахлителя. 2. Выпекать в сковороде (24см) под крышкой 5-7 мин, переворачивать с помощью крышки. В духовке около 15 минут, 180 градусов."
+        },
+        "snack": {
+          "name": "Арбуз",
+          "protein_type": "plant",
+          "dish_type": ["fruit"],
+          "ingredients": [
+            { "product": "Арбуз", "unit": "г", "weight_cooked": 200, "weight_raw": 200 }
+          ],
+          "method": "Без приготовления"
+        },
+        "dinner": {
+          "name": "Капуста в соусе Бешамель",
+          "protein_type": "mixed",
+          "dish_type": ["vegetable"],
+          "ingredients": [
+            { "product": "Брокколи", "unit": "г", "weight_cooked": 300, "weight_raw": 300 },
+            { "product": "Цветная капуста", "unit": "г", "weight_cooked": 300, "weight_raw": 300},
+            { "product": "Молоко", "unit": "г", "weight_cooked": 500, "weight_raw": 500},
+            { "product": "Масло сливочное", "unit": "г", "weight_cooked": 50, "weight_raw": 50},
+            { "product": "Мука", "unit": "г", "weight_cooked": 50, "weight_raw": 50},
+            { "product": "Соль", "unit": "г", "weight_cooked": 1, "weight_raw": 1},
+            { "product": "Перец черный", "unit": "г", "weight_cooked": 1, "weight_raw": 1},
+            { "product": "Сыр тертый", "unit": "г", "weight_cooked": 100, "weight_raw": 1}
+          ],
+          "method": "1. Капусту помыть, разобрать на соцветия, отварить 5 мин и переложить в форму (предварительно смазать маслом). 2. Сделать соус: растопить сл. масло в сотейнике, всыпать муку и не увеличивая огонь, хорошо перемешать венчиком до однородной массы. вливать постепенно молоко, непрерывно помешивая венчиком. добавить соль/перец по вкусу. варить соус до загустения (примерно 2 мин после закипания). 3. Залить капусту соусом бешамель. 4. посыпать тертым сыром сверху. 5. Поставить в предварительно разогретую до 200 гр духовку. Запекать 15-20 мин до румяной корочки. "
+        },
+        "dessert": {
+          "name": "Кох",
+          "protein_type": "plant",
+          "dish_type": ["dessert"],
+          "ingredients": [
+            { "product": "Яйцо", "unit": "шт", "weight_cooked": 4, "weight_raw": 4 },
+            { "product": "Сахар", "unit": "ст.л.", "weight_cooked": 4, "weight_raw": 4 },
+            { "product": "Манка", "unit": "ст.л.", "weight_cooked": 4, "weight_raw": 4},
+            { "product": "Молоко", "unit": "мл", "weight_cooked": 500, "weight_raw": 500},
+            { "product": "Ваниль", "unit": "г", "weight_cooked": 1, "weight_raw": 1}
+          ],
+          "method": "1. Отделить желтки от белков. Взбить белки. 2. Добавить 4 ст.л. сахара к белкам и продолжать взбивать. 3. Добавить желтки и продолжать взбивать. 4. Добавить манку и продолжать взбивать. 5. Смазать форму и вылить тесто в форму. 6. Выпекать в предварительно разогретой до 200 гр духовке около 15 минут. 7. Достать из духовки и залить смесью (молоко + ваниль + ванильный сахар). 8. Остудить и поставить в холодильник."
+        }
+      }
     }
-  }
-}
-]
+  ]
 }
